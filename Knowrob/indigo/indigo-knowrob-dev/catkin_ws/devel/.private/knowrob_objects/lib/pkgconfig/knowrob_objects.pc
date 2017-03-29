@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/knowrob_objects
+
+Name: knowrob_objects
+Description: Description of knowrob_objects
+Version: 1.0.0
+Cflags: 
+Libs: -L/root/catkin_ws/devel/.private/knowrob_objects/lib 
+Requires: knowrob_common tf_prolog

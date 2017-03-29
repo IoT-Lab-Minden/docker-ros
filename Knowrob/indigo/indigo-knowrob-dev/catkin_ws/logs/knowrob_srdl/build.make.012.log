@@ -1,0 +1,6 @@
+[ 33%] [34m[1mGradling tasks for knowrob_srdl
+[0m[100%] Built target srdl_media_files
+[0mUploading: org/knowrob/knowrob_srdl/knowrob_srdl/0.1.0/knowrob_srdl-0.1.0.jar to repository remote at file:/root/catkin_ws/devel/.private/knowrob_srdl/share/maven/
+Transferring 27K from remote
+Uploaded 27K
+[0m[100%] Built target gradle-knowrob_srdl

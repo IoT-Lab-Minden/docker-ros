@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/attache_msgs/lib/python2.7/dist-packages/attache_msgs/srv/_JointInformation.py

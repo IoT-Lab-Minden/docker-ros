@@ -1,0 +1,14 @@
+if cd turtlebot_base_controller; then git pull; else git clone http://172.20.24.10/Robotic/turtlebot_base_controller.git /root/src/turtlebot_base_controller; fi
+cd ../
+if cd Seerose; then git pull; else git clone git@172.20.24.10:Seerose/Seerose.git --branch knowrob_hannover_messe --single-branch /root/src/Seerose ;fi
+cd ../ 
+if cd knowrob; then git pull; else git clone --recursive https://github.com/knowrob/knowrob.git -b master /root/src/knowrob; fi
+cd ../
+   # git clone --recursive https://github.com/knowrob/knowrob_addons.git -b master && \
+   # git clone --recursive https://github.com/code-iai/knowrob_dev.git -b master && \
+if cd iai_maps; then git pull; else   git clone https://github.com/code-iai/iai_maps.git /root/src/;fi
+cd ../
+if cd iai_common_msgs; then git pull; else    git clone https://github.com/code-iai/iai_common_msgs.git /root/src/iai_common_msgs ;fi
+cd ../
+if cd iai_cad_tools; then git pull; else git clone https://github.com/code-iai/iai_cad_tools.git /root/src/iai_cad_tools ;fi
+

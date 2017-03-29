@@ -1,0 +1,23 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp: In member function 'void MarkerLocalizer::imageReceivedCallback(const ImageConstPtr&)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:99:3: error: 'Matrix4d' was not declared in this scope
+   Matrix4d p = quaternionToMatrix(q);
+   ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:99:12: error: expected ';' before 'p'
+   Matrix4d p = quaternionToMatrix(q);
+            ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:100:4: error: 'String' was not declared in this scope
+    String objectPercepitionString = "create_object_perception(" +
+    ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:100:4: note: suggested alternative:
+In file included from /opt/ros/indigo/include/cv_bridge/cv_bridge.h:43:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:13,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/opencv2/core/core.hpp:87:21: note:   'cv::String'
+ typedef std::string String;
+                     ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:100:11: error: expected ';' before 'objectPercepitionString'
+    String objectPercepitionString = "create_object_perception(" +
+           ^
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

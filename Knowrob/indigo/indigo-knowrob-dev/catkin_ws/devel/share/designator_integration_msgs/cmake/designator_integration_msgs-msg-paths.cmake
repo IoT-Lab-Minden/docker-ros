@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/designator_integration_msgs/share/designator_integration_msgs/cmake/designator_integration_msgs-msg-paths.cmake

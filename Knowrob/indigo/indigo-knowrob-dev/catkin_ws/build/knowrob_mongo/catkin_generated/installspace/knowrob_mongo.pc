@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: knowrob_mongo
+Description: Description of knowrob_mongo
+Version: 0.1.0
+Cflags: 
+Libs: -L/root/catkin_ws/install/lib 
+Requires: tf_prolog

@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/comp_orgprinciples/share/comp_orgprinciples/cmake/comp_orgprinciplesConfig-version.cmake

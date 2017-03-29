@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/comp_temporal
+
+Name: comp_temporal
+Description: Description of comp_temporal
+Version: 1.0.0
+Cflags: 
+Libs: -L/root/catkin_ws/devel/.private/comp_temporal/lib 
+Requires: knowrob_common

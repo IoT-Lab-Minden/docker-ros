@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/json_prolog_msgs
+
+Name: json_prolog_msgs
+Description: Description of json_prolog_msgs
+Version: 0.0.6
+Cflags: -I/root/catkin_ws/devel/.private/json_prolog_msgs/include
+Libs: -L/root/catkin_ws/devel/.private/json_prolog_msgs/lib 
+Requires: message_runtime

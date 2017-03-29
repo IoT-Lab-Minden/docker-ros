@@ -1,0 +1,4 @@
+Linked: (/root/catkin_ws/devel/.private/marker_detection/lib/pkgconfig/marker_detection.pc, /root/catkin_ws/devel/lib/pkgconfig/marker_detection.pc)
+Linked: (/root/catkin_ws/devel/.private/marker_detection/lib/marker_detection/marker_localizer, /root/catkin_ws/devel/lib/marker_detection/marker_localizer)
+Linked: (/root/catkin_ws/devel/.private/marker_detection/share/marker_detection/cmake/marker_detectionConfig.cmake, /root/catkin_ws/devel/share/marker_detection/cmake/marker_detectionConfig.cmake)
+Linked: (/root/catkin_ws/devel/.private/marker_detection/share/marker_detection/cmake/marker_detectionConfig-version.cmake, /root/catkin_ws/devel/share/marker_detection/cmake/marker_detectionConfig-version.cmake)

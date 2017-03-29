@@ -1,0 +1,8 @@
+/root/catkin_ws/build/rosprolog/CMakeFiles/_catkin_empty_exported_target.dir
+/root/catkin_ws/build/rosprolog/CMakeFiles/clean_test_results.dir
+/root/catkin_ws/build/rosprolog/CMakeFiles/download_extra_data.dir
+/root/catkin_ws/build/rosprolog/CMakeFiles/doxygen.dir
+/root/catkin_ws/build/rosprolog/gtest/CMakeFiles/gtest.dir
+/root/catkin_ws/build/rosprolog/gtest/CMakeFiles/gtest_main.dir
+/root/catkin_ws/build/rosprolog/CMakeFiles/run_tests.dir
+/root/catkin_ws/build/rosprolog/CMakeFiles/tests.dir

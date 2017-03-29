@@ -1,0 +1,30 @@
+[  0%] Built target _iai_control_msgs_generate_messages_check_deps_MultiJointVelocityCommand
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] [  0%] Built target _iai_control_msgs_generate_messages_check_deps_PTUResult
+Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _iai_control_msgs_generate_messages_check_deps_PTUAction
+[  0%] [  0%] Built target _iai_control_msgs_generate_messages_check_deps_MultiJointVelocityImpedanceCommand
+Built target _iai_control_msgs_generate_messages_check_deps_PTUGoal
+[  0%] Built target _iai_control_msgs_generate_messages_check_deps_PTUActionFeedback
+[  0%] Built target _iai_control_msgs_generate_messages_check_deps_MultiJointVelocityImpedanceState
+[  0%] Built target _iai_control_msgs_generate_messages_check_deps_CartState
+[  0%] Built target _iai_control_msgs_generate_messages_check_deps_CartGoal
+[  0%] Built target _iai_control_msgs_generate_messages_check_deps_PTUActionGoal
+[  0%] Built target _iai_control_msgs_generate_messages_check_deps_PTUActionResult
+[  0%] Built target _iai_control_msgs_generate_messages_check_deps_PowerState
+[  0%] Built target _iai_control_msgs_generate_messages_check_deps_JointLimits
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] [  0%] Built target actionlib_msgs_generate_messages_lisp
+Built target _iai_control_msgs_generate_messages_check_deps_PTUFeedback
+[  2%] [  2%] [  2%] Built target std_msgs_generate_messages_cpp
+Built target actionlib_msgs_generate_messages_cpp
+[34m[1mCompiling Java code for iai_control_msgs
+[0m[  2%] Built target geometry_msgs_generate_messages_cpp
+[ 34%] Built target iai_control_msgs_generate_messages_py
+[ 65%] Built target iai_control_msgs_generate_messages_lisp
+[ 67%] Built target iai_control_msgs_generate_messages_java
+[ 97%] Built target iai_control_msgs_generate_messages_cpp
+[100%] Built target iai_control_msgs_generate_messages_java_gradle
+[100%] Built target iai_control_msgs_generate_messages

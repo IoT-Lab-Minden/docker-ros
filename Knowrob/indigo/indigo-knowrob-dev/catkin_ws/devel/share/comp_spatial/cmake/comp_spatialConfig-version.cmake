@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/comp_spatial/share/comp_spatial/cmake/comp_spatialConfig-version.cmake

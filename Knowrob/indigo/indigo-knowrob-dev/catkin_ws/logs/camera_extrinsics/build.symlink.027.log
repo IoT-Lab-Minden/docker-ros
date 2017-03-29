@@ -1,0 +1,4 @@
+Linked: (/root/catkin_ws/devel/.private/camera_extrinsics/lib/pkgconfig/camera_extrinsics.pc, /root/catkin_ws/devel/lib/pkgconfig/camera_extrinsics.pc)
+Linked: (/root/catkin_ws/devel/.private/camera_extrinsics/lib/camera_extrinsics/camera_extrinsics_calculator, /root/catkin_ws/devel/lib/camera_extrinsics/camera_extrinsics_calculator)
+Linked: (/root/catkin_ws/devel/.private/camera_extrinsics/share/camera_extrinsics/cmake/camera_extrinsicsConfig-version.cmake, /root/catkin_ws/devel/share/camera_extrinsics/cmake/camera_extrinsicsConfig-version.cmake)
+Linked: (/root/catkin_ws/devel/.private/camera_extrinsics/share/camera_extrinsics/cmake/camera_extrinsicsConfig.cmake, /root/catkin_ws/devel/share/camera_extrinsics/cmake/camera_extrinsicsConfig.cmake)

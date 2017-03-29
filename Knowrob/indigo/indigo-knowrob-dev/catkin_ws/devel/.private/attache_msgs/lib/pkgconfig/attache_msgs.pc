@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/attache_msgs
+
+Name: attache_msgs
+Description: Description of attache_msgs
+Version: 0.0.6
+Cflags: -I/root/catkin_ws/devel/.private/attache_msgs/include
+Libs: -L/root/catkin_ws/devel/.private/attache_msgs/lib 
+Requires: message_runtime

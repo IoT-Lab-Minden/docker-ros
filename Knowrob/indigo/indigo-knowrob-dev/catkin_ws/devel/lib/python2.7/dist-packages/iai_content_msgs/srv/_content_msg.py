@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/iai_content_msgs/lib/python2.7/dist-packages/iai_content_msgs/srv/_content_msg.py

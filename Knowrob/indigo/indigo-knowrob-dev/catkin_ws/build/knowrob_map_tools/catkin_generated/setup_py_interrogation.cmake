@@ -1,0 +1,6 @@
+set(knowrob_map_tools_SETUP_PY_VERSION "1.0.0")
+set(knowrob_map_tools_SETUP_PY_SCRIPTS "")
+set(knowrob_map_tools_SETUP_PY_PACKAGES "knowrob_map_tools")
+set(knowrob_map_tools_SETUP_PY_PACKAGE_DIRS "src/knowrob_map_tools")
+set(knowrob_map_tools_SETUP_PY_MODULES "")
+set(knowrob_map_tools_SETUP_PY_MODULE_DIRS "")

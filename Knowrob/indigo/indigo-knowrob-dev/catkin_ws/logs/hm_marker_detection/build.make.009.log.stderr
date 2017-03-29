@@ -1,0 +1,10 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp: In constructor 'MarkerLocalizer::MarkerLocalizer()':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:29:12: error: 'argc' was not declared in this scope
+  ros::init(argc, argv, "test_json_prolog");
+            ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:29:18: error: 'argv' was not declared in this scope
+  ros::init(argc, argv, "test_json_prolog");
+                  ^
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

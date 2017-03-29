@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/person_msgs/lib/python2.7/dist-packages/person_msgs/msg/_Skeleton2D.py

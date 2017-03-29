@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target marker_localizer
+[0m[100%] [32mBuilding CXX object CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:0:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:25:37: fatal error: knowrob_semantic_map_msgs: No such file or directory
+ #include <knowrob_semantic_map_msgs>
+                                     ^
+compilation terminated.
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

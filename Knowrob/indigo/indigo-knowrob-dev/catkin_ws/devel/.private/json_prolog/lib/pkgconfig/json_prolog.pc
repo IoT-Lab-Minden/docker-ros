@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/json_prolog
+
+Name: json_prolog
+Description: Description of json_prolog
+Version: 0.1.0
+Cflags: -I/root/catkin_ws/src/knowrob/json_prolog/include
+Libs: -L/root/catkin_ws/devel/.private/json_prolog/lib -ljson_prolog
+Requires: json_prolog_msgs

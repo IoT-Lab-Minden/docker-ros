@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/iai_urdf_msgs
+
+Name: iai_urdf_msgs
+Description: Description of iai_urdf_msgs
+Version: 0.0.6
+Cflags: -I/root/catkin_ws/devel/.private/iai_urdf_msgs/include
+Libs: -L/root/catkin_ws/devel/.private/iai_urdf_msgs/lib 
+Requires: message_runtime

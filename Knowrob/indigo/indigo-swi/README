@@ -1,0 +1,18 @@
+# indigo-knowrob-interactive
+## Base image for knowrob containers
+
+### Diff (ubuntu:14.04)
+
+- Preinstalled ROS
+- Preinstalled Java
+- Predefined user "ros"
+- Predefined environment variables
+- Predefined maven mirror (nexus)
+-- Config mvn-settings.xml is configured to use rs08 as maven mirror
+
+
+### Tutorial
+
+- [ ] ./build
+- [ ] ./StartKnowRobContainer
+

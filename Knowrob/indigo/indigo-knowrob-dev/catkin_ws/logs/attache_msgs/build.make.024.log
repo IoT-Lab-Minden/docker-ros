@@ -1,0 +1,10 @@
+[  7%] [34m[1mCompiling Java code for attache_msgs
+[0m[ 15%] Built target attache_msgs_generate_messages_java_gradle
+[ 15%] Built target _attache_msgs_generate_messages_check_deps_Attachment
+[ 15%] Built target _attache_msgs_generate_messages_check_deps_JointInformation
+[ 15%] Built target _attache_msgs_generate_messages_check_deps_JointControl
+[ 38%] Built target attache_msgs_generate_messages_lisp
+[ 46%] Built target attache_msgs_generate_messages_java
+[ 69%] Built target attache_msgs_generate_messages_cpp
+[100%] Built target attache_msgs_generate_messages_py
+[100%] Built target attache_msgs_generate_messages

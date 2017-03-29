@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: designator_integration_msgs
+Description: Description of designator_integration_msgs
+Version: 0.0.6
+Cflags: -I/root/catkin_ws/install/include
+Libs: -L/root/catkin_ws/install/lib 
+Requires: geometry_msgs message_runtime

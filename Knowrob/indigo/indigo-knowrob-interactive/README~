@@ -1,0 +1,9 @@
+# indigo-knowrob-interactive
+## Branch of the indigo-swi container for knowrob-based containers
+
+### Diff (indigo-swi)
+
+- Preinstalled ROS and Knowrob
+
+
+

@@ -1,0 +1,10 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:21:36: error: 'const string MarkerLocalizer::TOPIC_ARUCO_MARKER_POSE_KNOWROB' is not a static member of 'class MarkerLocalizer'
+ const std::string MarkerLocalizer::TOPIC_ARUCO_MARKER_POSE_KNOWROB = "/knowrob_percept";
+                                    ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp: In constructor 'MarkerLocalizer::MarkerLocalizer()':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:37:75: error: 'TOPIC_ARUCO_MARKER_POSE_KNOWROB' was not declared in this scope
+  m_markerPosePublisher_Knowrob = m_nodeHandle.advertise<std_msgs::String>(TOPIC_ARUCO_MARKER_POSE_KNOWROB, 1000);
+                                                                           ^
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

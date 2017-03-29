@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/knowrob_knowledge_base/share/knowrob_knowledge_base/cmake/knowrob_knowledge_baseConfig-version.cmake

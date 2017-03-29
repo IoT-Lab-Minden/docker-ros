@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/designator_integration_msgs/share/common-lisp/ros/designator_integration_msgs/srv/designator_integration_msgs-srv.asd

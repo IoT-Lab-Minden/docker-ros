@@ -1,0 +1,479 @@
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:0:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:136:18: error: expected ';' at end of member declaration
+   ros::Publisher m_markerPosePublisher_Knowrob
+                  ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp: In constructor 'MarkerLocalizer::MarkerLocalizer()':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:36:34: error: 'n' was not declared in this scope
+  m_markerPosePublisher_Knowrob = n.advertise<std_msgs::String>("chatter", 1000);
+                                  ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:36:46: error: 'String' is not a member of 'std_msgs'
+  m_markerPosePublisher_Knowrob = n.advertise<std_msgs::String>("chatter", 1000);
+                                              ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:36:46: note: suggested alternative:
+In file included from /opt/ros/indigo/include/cv_bridge/cv_bridge.h:43:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:13,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/opencv2/core/core.hpp:87:21: note:   'cv::String'
+ typedef std::string String;
+                     ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:36:75: warning: left operand of comma operator has no effect [-Wunused-value]
+  m_markerPosePublisher_Knowrob = n.advertise<std_msgs::String>("chatter", 1000);
+                                                                           ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp: In member function 'void MarkerLocalizer::imageReceivedCallback(const ImageConstPtr&)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:100:4: error: 'String' is not a member of 'std_msgs'
+    std_msgs::String msg;
+    ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:100:4: note: suggested alternative:
+In file included from /opt/ros/indigo/include/cv_bridge/cv_bridge.h:43:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:13,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/opencv2/core/core.hpp:87:21: note:   'cv::String'
+ typedef std::string String;
+                     ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:100:21: error: expected ';' before 'msg'
+    std_msgs::String msg;
+                     ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:25: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and '<unresolved overloaded function type>')
+    ss << "hello world " << count;
+                         ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:25: note: candidates are:
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:108:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+/usr/include/c++/4.8/ostream:108:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+/usr/include/c++/4.8/ostream:117:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+/usr/include/c++/4.8/ostream:117:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+/usr/include/c++/4.8/ostream:127:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+/usr/include/c++/4.8/ostream:127:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::ios_base& (*)(std::ios_base&)'
+/usr/include/c++/4.8/ostream:166:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+/usr/include/c++/4.8/ostream:166:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long int'
+/usr/include/c++/4.8/ostream:170:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+/usr/include/c++/4.8/ostream:170:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long unsigned int'
+/usr/include/c++/4.8/ostream:174:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+/usr/include/c++/4.8/ostream:174:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'bool'
+In file included from /usr/include/c++/4.8/ostream:612:0,
+                 from /usr/include/c++/4.8/iostream:39,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/bits/ostream.tcc:91:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short int'
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:181:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+/usr/include/c++/4.8/ostream:181:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'short unsigned int'
+In file included from /usr/include/c++/4.8/ostream:612:0,
+                 from /usr/include/c++/4.8/iostream:39,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/bits/ostream.tcc:105:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'int'
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:192:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+/usr/include/c++/4.8/ostream:192:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'unsigned int'
+/usr/include/c++/4.8/ostream:201:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+/usr/include/c++/4.8/ostream:201:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long int'
+/usr/include/c++/4.8/ostream:205:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+/usr/include/c++/4.8/ostream:205:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long long unsigned int'
+/usr/include/c++/4.8/ostream:220:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+/usr/include/c++/4.8/ostream:220:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'double'
+/usr/include/c++/4.8/ostream:224:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+/usr/include/c++/4.8/ostream:224:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'float'
+/usr/include/c++/4.8/ostream:232:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+/usr/include/c++/4.8/ostream:232:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'long double'
+/usr/include/c++/4.8/ostream:245:7: note: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+/usr/include/c++/4.8/ostream:245:7: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'const void*'
+In file included from /usr/include/c++/4.8/ostream:612:0,
+                 from /usr/include/c++/4.8/iostream:39,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/bits/ostream.tcc:119:5: note: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from '<unresolved overloaded function type>' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from /opt/ros/indigo/include/ros/node_handle.h:51:0,
+                 from /opt/ros/indigo/include/ros/ros.h:45,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/opt/ros/indigo/include/XmlRpcValue.h:192:15: note: std::ostream& operator<<(std::ostream&, XmlRpc::XmlRpcValue&)
+ std::ostream& operator<<(std::ostream& os, XmlRpc::XmlRpcValue& v);
+               ^
+/opt/ros/indigo/include/XmlRpcValue.h:192:15: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'XmlRpc::XmlRpcValue&'
+In file included from /root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog_bindings.h:38:0,
+                 from /root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog_query_proxy.h:38,
+                 from /root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog.h:36,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:23,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog_value.h:101:15: note: std::ostream& json_prolog::operator<<(std::ostream&, const json_prolog::PrologValue&)
+ std::ostream &operator<<(std::ostream &strm, const PrologValue &v);
+               ^
+/root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog_value.h:101:15: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const json_prolog::PrologValue&'
+In file included from /usr/include/opencv2/contrib/retina.hpp:76:0,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /opt/ros/indigo/include/aruco/markerdetector.h:30,
+                 from /opt/ros/indigo/include/aruco/aruco.h:131,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:17,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/valarray:1175:1: note: std::_Expr<std::_BinClos<std::__shift_left, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const _Tp&, const std::valarray<_Tp>&) [with _Tp = std::basic_ostream<char>; typename std::__fun<std::__shift_left, _Tp>::result_type = std::basic_ostream<char>]
+ _DEFINE_BINARY_OPERATOR(<<, __shift_left)
+ ^
+/usr/include/c++/4.8/valarray:1175:1: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const std::valarray<std::basic_ostream<char> >&'
+/usr/include/c++/4.8/valarray:1175:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__shift_left, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(<<, __shift_left)
+ ^
+/usr/include/c++/4.8/valarray:1175:1: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   'std::basic_ostream<char>' is not derived from 'const std::valarray<_Tp>'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/opencv2/contrib/retina.hpp:76:0,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /opt/ros/indigo/include/aruco/markerdetector.h:30,
+                 from /opt/ros/indigo/include/aruco/aruco.h:131,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:17,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/valarray:1175:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__shift_left, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(<<, __shift_left)
+ ^
+/usr/include/c++/4.8/valarray:1175:1: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   'std::basic_ostream<char>' is not derived from 'const std::valarray<_Tp>'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /opt/ros/indigo/include/aruco/markerdetector.h:30,
+                 from /opt/ros/indigo/include/aruco/aruco.h:131,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:17,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/bits/valarray_after.h:410:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_left, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(<<, __shift_left)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:410:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   'std::basic_ostream<char>' is not derived from 'const std::valarray<typename _Dom::value_type>'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /opt/ros/indigo/include/aruco/markerdetector.h:30,
+                 from /opt/ros/indigo/include/aruco/aruco.h:131,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:17,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/bits/valarray_after.h:410:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_left, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(<<, __shift_left)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:410:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   'std::basic_ostream<char>' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /opt/ros/indigo/include/aruco/markerdetector.h:30,
+                 from /opt/ros/indigo/include/aruco/aruco.h:131,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:17,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/bits/valarray_after.h:410:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_left, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(<<, __shift_left)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:410:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   couldn't deduce template parameter '_Dom'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /opt/ros/indigo/include/aruco/markerdetector.h:30,
+                 from /opt/ros/indigo/include/aruco/aruco.h:131,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:17,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/bits/valarray_after.h:410:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__shift_left, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(<<, __shift_left)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:410:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   'std::basic_ostream<char>' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/valarray:587:0,
+                 from /usr/include/opencv2/contrib/retina.hpp:76,
+                 from /usr/include/opencv2/contrib/contrib.hpp:979,
+                 from /usr/include/opencv2/opencv.hpp:59,
+                 from /opt/ros/indigo/include/aruco/markerdetector.h:30,
+                 from /opt/ros/indigo/include/aruco/aruco.h:131,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:17,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/bits/valarray_after.h:410:5: note: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__shift_left, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(<<, __shift_left)
+     ^
+/usr/include/c++/4.8/bits/valarray_after.h:410:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   'std::basic_ostream<char>' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/complex:524:5: note: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+     ^
+/usr/include/c++/4.8/complex:524:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   couldn't deduce template parameter '_Tp'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/iomanip:235:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+     ^
+/usr/include/c++/4.8/iomanip:235:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'std::_Setw'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/iomanip:205:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+     ^
+/usr/include/c++/4.8/iomanip:205:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'std::_Setprecision'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/iomanip:175:5: note: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>) [with _CharT = char; _Traits = std::char_traits<char>]
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+     ^
+/usr/include/c++/4.8/iomanip:175:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'std::_Setfill<char>'
+/usr/include/c++/4.8/iomanip:140:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+     ^
+/usr/include/c++/4.8/iomanip:140:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'std::_Setbase'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/iomanip:106:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+     ^
+/usr/include/c++/4.8/iomanip:106:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'std::_Setiosflags'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/iomanip:76:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+     ^
+/usr/include/c++/4.8/iomanip:76:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'std::_Resetiosflags'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:548:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/include/c++/4.8/ostream:548:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'const unsigned char*'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:543:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/include/c++/4.8/ostream:543:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'const signed char*'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:530:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/4.8/ostream:530:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'const char*'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/ostream:612:0,
+                 from /usr/include/c++/4.8/iostream:39,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/bits/ostream.tcc:321:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'const char*'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:513:5: note: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>]
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/include/c++/4.8/ostream:513:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'const char*'
+/usr/include/c++/4.8/ostream:493:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/include/c++/4.8/ostream:493:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'unsigned char'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:488:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/include/c++/4.8/ostream:488:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'signed char'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:482:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/4.8/ostream:482:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'char'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:476:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/4.8/ostream:476:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   cannot convert 'std::count' (type '<unresolved overloaded function type>') to type 'char'
+    ss << "hello world " << count;
+                            ^
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/ostream:471:5: note: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT) [with _CharT = char; _Traits = std::char_traits<char>]
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/include/c++/4.8/ostream:471:5: note:   no known conversion for argument 2 from '<unresolved overloaded function type>' to 'char'
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /opt/ros/indigo/include/ros/platform.h:55,
+                 from /opt/ros/indigo/include/ros/time.h:53,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/usr/include/c++/4.8/bits/basic_string.h:2753:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2753:5: note:   template argument deduction/substitution failed:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:28: note:   couldn't deduce template parameter '_Alloc'
+    ss << "hello world " << count;
+                            ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:103:4: error: 'msg' was not declared in this scope
+    msg.data = ss.str();
+    ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:120:2: error: expected ';' before '}' token
+  }
+  ^
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

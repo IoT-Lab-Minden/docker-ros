@@ -1,4 +1,4 @@
-FROM openease/indigo-swi
+FROM iotlab/indigo-swi
 MAINTAINER Daniel Beßler, danielb@cs.uni-bremen.de
 
 # Initialize the catkin workspace
@@ -8,10 +8,11 @@ RUN /usr/bin/python /opt/ros/indigo/bin/catkin_init_workspace
 
 RUN echo "Cloning repositories..."
 RUN git clone --recursive https://github.com/knowrob/knowrob.git -b master && \
-    git clone --recursive https://github.com/knowrob/knowrob_addons.git -b master && \
+   # git clone --recursive https://github.com/knowrob/knowrob_addons.git -b master && \
    # git clone --recursive https://github.com/code-iai/knowrob_dev.git -b master && \
     git clone https://github.com/code-iai/iai_maps.git && \
     git clone https://github.com/code-iai/iai_common_msgs.git && \
+    git clone https://github.com/ethz-asl/knowrob-semantic-map-msgs.git && \
     git clone https://github.com/code-iai/iai_cad_tools.git
 
 WORKDIR /home/ros

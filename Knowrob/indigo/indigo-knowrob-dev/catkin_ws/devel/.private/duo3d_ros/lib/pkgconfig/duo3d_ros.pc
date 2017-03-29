@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/duo3d_ros
+
+Name: duo3d_ros
+Description: Description of duo3d_ros
+Version: 0.9.9
+Cflags: 
+Libs: -L/root/catkin_ws/devel/.private/duo3d_ros/lib 
+Requires: geometry_msgs roscpp tf

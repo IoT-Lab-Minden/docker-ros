@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target marker_localizer
+[0m[100%] [32mBuilding CXX object CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp: In member function 'void MarkerLocalizer::imageReceivedCallback(const ImageConstPtr&)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:108:8: error: 'geometry_msgs::Pose' has no member named 'point'
+   pose.point.x = l_markerPose.pose.pose.position.x;
+        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:109:8: error: 'geometry_msgs::Pose' has no member named 'point'
+   pose.point.y = l_markerPose.pose.pose.position.y;
+        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:110:8: error: 'geometry_msgs::Pose' has no member named 'point'
+   pose.point.z = l_markerPose.pose.pose.position.z;
+        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:111:8: error: 'geometry_msgs::Pose' has no member named 'quaternion'
+   pose.quaternion.x = q.x();
+        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:112:8: error: 'geometry_msgs::Pose' has no member named 'quaternion'
+   pose.quaternion.y = q.y();
+        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:113:8: error: 'geometry_msgs::Pose' has no member named 'quaternion'
+   pose.quaternion.z = q.z();
+        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:114:8: error: 'geometry_msgs::Pose' has no member named 'quaternion'
+   pose.quaternion.w = q.w();
+        ^
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

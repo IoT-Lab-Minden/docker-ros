@@ -1,0 +1,8 @@
+/root/catkin_ws/build/knowrob_objects/CMakeFiles/_catkin_empty_exported_target.dir
+/root/catkin_ws/build/knowrob_objects/CMakeFiles/clean_test_results.dir
+/root/catkin_ws/build/knowrob_objects/CMakeFiles/download_extra_data.dir
+/root/catkin_ws/build/knowrob_objects/CMakeFiles/doxygen.dir
+/root/catkin_ws/build/knowrob_objects/gtest/CMakeFiles/gtest.dir
+/root/catkin_ws/build/knowrob_objects/gtest/CMakeFiles/gtest_main.dir
+/root/catkin_ws/build/knowrob_objects/CMakeFiles/run_tests.dir
+/root/catkin_ws/build/knowrob_objects/CMakeFiles/tests.dir

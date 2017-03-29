@@ -1,12 +1,24 @@
 FROM ubuntu:14.04
-MAINTAINER Daniel Beßler, danielb@cs.uni-bremen.de	
-
+MAINTAINER Aljoscha Pörtner, aljoscha.poertner@fh-bielefeld.de	
+#Based on indigo-swi by Daniel Beßler, danielb@cs.uni-bremen.de
 ARG HOST_IP=172.17.0.1
 ARG ROS_SOURCES="http://packages.ros.org/ros/ubuntu"
 
 # Use apt-cacher container
 # NOTE: Requires that apt-cacher server was started before build.
-RUN echo 'Acquire::http { Proxy "http://'${HOST_IP}':3142"; };' >> /etc/apt/apt.conf.d/01proxy
+# RUN echo 'Acquire::http { Proxy "http://'${HOST_IP}':3142"; };' >> /etc/apt/apt.conf.d/01proxy
+
+# Install Java 7
+
+RUN sed 's/main$/main universe/' -i /etc/apt/sources.list && \
+    apt-get update && apt-get install -y software-properties-common && \
+    add-apt-repository ppa:webupd8team/java -y && \
+    apt-get update && \
+    echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections && \
+    apt-get install -y oracle-java7-installer libxext-dev libxrender-dev libxtst-dev && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* && \
+rm -rf /tmp/*
 
 # Install ROS
 RUN apt-get -qq update && \
@@ -14,13 +26,13 @@ RUN apt-get -qq update && \
 RUN sh -c '. /etc/lsb-release && echo "deb ${ROS_SOURCES} $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 RUN apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116 && \
     apt-get -qq -y update && \
-    apt-get -qq -y install ros-indigo-desktop swi-prolog swi-prolog-java libjson-java \
+    apt-get -qq -y install ros-indigo-desktop software-properties-common swi-prolog swi-prolog-java libjson-java \
                            libjson-glib-dev python-yaml python-catkin-pkg python-rospkg \
                            emacs ros-indigo-catkin git ros-indigo-iai-common-msgs \
                            ros-indigo-rosjava ros-indigo-rosbridge-suite ros-indigo-tf2-web-republisher \
                            ros-indigo-mjpeg-server mongodb-clients mongodb-dev libmongo-client-dev \
                            ros-indigo-rosauth mencoder lame libavcodec-extra-54 \
-                           openjdk-7-jdk texlive-latex-base imagemagick && \
+                           texlive-latex-base imagemagick python-catkin-tools && \
     apt-get -qq -y autoremove && \
     apt-get -qq -y clean && \
     rm -rf /var/lib/apt/lists/* && \
@@ -47,6 +59,7 @@ RUN mkdir /home/ros/src && \
 RUN echo "export LD_LIBRARY_PATH=/usr/lib/jvm/default-java/jre/lib/amd64:/usr/lib/jvm/default-java/jre/lib/amd64/server" >> /home/ros/.bashrc && \
     echo "export JAVA_HOME=/usr/lib/jvm/default-java" >> /home/ros/.bashrc && \
     echo "source /opt/ros/indigo/setup.bash" >> /home/ros/.bashrc && \
+    echo "source /home/ros/devel/setup.bash" >> /home/ros/.bashrc && \
     echo "source /home/ros/.bashrc" >> /home/ros/.bash_profile
 
 # set pre-build variables: only packages in /opt/ros
@@ -77,5 +90,7 @@ ADD mvn-settings.xml /home/ros/.m2/settings.xml
 ENV DOCKER_LINKS mongo_db:mongo
 ENV DOCKER_VOLUMES episode_data:ro mesh_data
 
+
+ENTRYPOINT echo "export ROS_IP="awk 'END{print $1}' /etc/hosts
 # Forward ports: webserver + rosbridge
 EXPOSE 1111 9090

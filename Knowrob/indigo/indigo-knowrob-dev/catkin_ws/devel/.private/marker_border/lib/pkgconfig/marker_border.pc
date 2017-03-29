@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/marker_border
+
+Name: marker_border
+Description: Description of marker_border
+Version: 0.6.6
+Cflags: -I/root/catkin_ws/src/Seerose/SourceCode/ROS/marker_border/include
+Libs: -L/root/catkin_ws/devel/.private/marker_border/lib -lmabo_controller_nodelet
+Requires: roscpp nodelet pluginlib std_msgs kobuki_msgs

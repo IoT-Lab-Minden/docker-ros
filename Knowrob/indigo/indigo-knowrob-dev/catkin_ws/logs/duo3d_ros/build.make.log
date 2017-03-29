@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target duo_node_light
+make[2]: *** No rule to make target `/home/ubuntu/Documents/CL-DUO3D-ARM-1.0.35.226/DUOSDK/SDK/linux/arm/libDUO.so', needed by `/root/catkin_ws/devel/.private/duo3d_ros/lib/duo3d_ros/duo_node_light'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[0m[100%] [32mBuilding CXX object CMakeFiles/duo_node_light.dir/src/Duo3DNode.cpp.o
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/duo3d_ros/src/Duo3DNode.cpp:6:0:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/duo3d_ros/include/Duo3DNode.h:79:20: fatal error: DUOLib.h: No such file or directory
+ #include <DUOLib.h>
+                    ^
+compilation terminated.
+make[2]: *** [CMakeFiles/duo_node_light.dir/src/Duo3DNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/duo_node_light.dir/all] Error 2
+make: *** [all] Error 2

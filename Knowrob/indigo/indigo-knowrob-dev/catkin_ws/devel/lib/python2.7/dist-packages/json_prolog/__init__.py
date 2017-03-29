@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/json_prolog/lib/python2.7/dist-packages/json_prolog/__init__.py

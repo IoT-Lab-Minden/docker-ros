@@ -1,0 +1,11 @@
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target _iai_content_msgs_generate_messages_check_deps_content_msg
+[  0%] Built target sensor_msgs_generate_messages_py
+[ 14%] Built target iai_content_msgs_generate_messages_java
+[ 28%] [34m[1mCompiling Java code for iai_content_msgs
+[0m[ 28%] Built target sensor_msgs_generate_messages_cpp
+[ 42%] Built target iai_content_msgs_generate_messages_lisp
+[ 57%] Built target iai_content_msgs_generate_messages_java_gradle
+[100%] [100%] Built target iai_content_msgs_generate_messages_py
+Built target iai_content_msgs_generate_messages_cpp
+[100%] Built target iai_content_msgs_generate_messages

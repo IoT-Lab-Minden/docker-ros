@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/camera_extrinsics
+
+Name: camera_extrinsics
+Description: Description of camera_extrinsics
+Version: 0.0.0
+Cflags: -I/root/catkin_ws/src/Seerose/SourceCode/ROS/camera_extrinsics/include
+Libs: -L/root/catkin_ws/devel/.private/camera_extrinsics/lib 
+Requires: 

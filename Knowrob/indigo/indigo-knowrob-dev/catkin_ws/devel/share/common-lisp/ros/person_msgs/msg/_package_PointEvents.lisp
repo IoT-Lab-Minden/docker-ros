@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/person_msgs/share/common-lisp/ros/person_msgs/msg/_package_PointEvents.lisp

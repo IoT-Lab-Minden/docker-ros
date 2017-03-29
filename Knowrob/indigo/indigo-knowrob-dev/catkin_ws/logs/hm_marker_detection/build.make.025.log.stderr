@@ -1,0 +1,8 @@
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:0:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:24:29: fatal error: std_msgs/string.h: No such file or directory
+ #include <std_msgs/string.h>
+                             ^
+compilation terminated.
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

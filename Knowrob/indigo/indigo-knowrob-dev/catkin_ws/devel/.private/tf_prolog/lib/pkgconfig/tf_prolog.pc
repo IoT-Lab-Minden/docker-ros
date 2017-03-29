@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/tf_prolog
+
+Name: tf_prolog
+Description: Description of tf_prolog
+Version: 0.1.0
+Cflags: 
+Libs: -L/root/catkin_ws/devel/.private/tf_prolog/lib 
+Requires: rosprolog

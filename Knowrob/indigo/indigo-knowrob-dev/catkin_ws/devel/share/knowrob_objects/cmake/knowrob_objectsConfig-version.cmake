@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/knowrob_objects/share/knowrob_objects/cmake/knowrob_objectsConfig-version.cmake

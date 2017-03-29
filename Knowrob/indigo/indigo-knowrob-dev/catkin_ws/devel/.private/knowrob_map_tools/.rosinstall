@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/catkin_ws/devel/.private/knowrob_map_tools/setup.sh

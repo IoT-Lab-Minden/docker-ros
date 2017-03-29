@@ -1,0 +1,16 @@
+# indigo-knowrob-dev
+## Branch of the docker-knowrob-interactive container for development
+
+### Diff (docker-knowrob-interactive)
+
+- Preinstalled Eclipse
+- Preinstalled support for VNC
+- Mounted folder for workspace files in ".eclipse"
+
+### Tutorial
+
+- [ ] ./build
+- [ ] ./StartKnowRobContainer (PW = password)
+
+
+

@@ -1,0 +1,4 @@
+knowrob/rosprolog
+/root/catkin_ws/devel/.private/rosprolog/lib/pkgconfig/rosprolog.pc /root/catkin_ws/devel/lib/pkgconfig/rosprolog.pc
+/root/catkin_ws/devel/.private/rosprolog/share/rosprolog/cmake/rosprologConfig-version.cmake /root/catkin_ws/devel/share/rosprolog/cmake/rosprologConfig-version.cmake
+/root/catkin_ws/devel/.private/rosprolog/share/rosprolog/cmake/rosprologConfig.cmake /root/catkin_ws/devel/share/rosprolog/cmake/rosprologConfig.cmake

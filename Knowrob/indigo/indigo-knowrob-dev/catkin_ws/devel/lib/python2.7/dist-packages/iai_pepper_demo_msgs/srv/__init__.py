@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/iai_pepper_demo_msgs/lib/python2.7/dist-packages/iai_pepper_demo_msgs/srv/__init__.py

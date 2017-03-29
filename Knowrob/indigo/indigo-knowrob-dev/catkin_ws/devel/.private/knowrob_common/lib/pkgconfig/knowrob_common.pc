@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/knowrob_common
+
+Name: knowrob_common
+Description: Description of knowrob_common
+Version: 0.1.0
+Cflags: 
+Libs: -L/root/catkin_ws/devel/.private/knowrob_common/lib 
+Requires: rosprolog

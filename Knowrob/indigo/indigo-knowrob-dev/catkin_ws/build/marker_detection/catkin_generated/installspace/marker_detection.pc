@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: marker_detection
+Description: Description of marker_detection
+Version: 0.0.1
+Cflags: -I/root/catkin_ws/install/include
+Libs: -L/root/catkin_ws/install/lib 
+Requires: 

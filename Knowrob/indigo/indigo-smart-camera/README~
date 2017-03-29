@@ -1,0 +1,10 @@
+# indigo-smart-camera
+## Branch of the docker-knowrob-interactive for the smart cameras (Hannover Messe)
+
+### Diff (docker-knowrob-interactive)
+
+- Cloned smart camera 
+- Installed smart camera related ros packages
+
+
+

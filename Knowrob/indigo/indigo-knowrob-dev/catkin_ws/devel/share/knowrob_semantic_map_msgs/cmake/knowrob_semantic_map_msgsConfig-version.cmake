@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/knowrob_semantic_map_msgs/share/knowrob_semantic_map_msgs/cmake/knowrob_semantic_map_msgsConfig-version.cmake

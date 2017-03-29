@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/marker_detection/lib/pkgconfig/marker_detection.pc

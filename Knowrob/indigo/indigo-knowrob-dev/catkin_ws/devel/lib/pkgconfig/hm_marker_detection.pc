@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/hm_marker_detection/lib/pkgconfig/hm_marker_detection.pc

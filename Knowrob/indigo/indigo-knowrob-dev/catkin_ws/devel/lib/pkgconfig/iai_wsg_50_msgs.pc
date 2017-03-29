@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/iai_wsg_50_msgs/lib/pkgconfig/iai_wsg_50_msgs.pc

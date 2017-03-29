@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: iai_control_msgs
+Description: Description of iai_control_msgs
+Version: 0.0.6
+Cflags: -I/root/catkin_ws/install/include
+Libs: -L/root/catkin_ws/install/lib 
+Requires: std_msgs geometry_msgs actionlib_msgs

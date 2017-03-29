@@ -1,0 +1,10 @@
+[  0%] Built target _json_prolog_msgs_generate_messages_check_deps_PrologNextSolution
+[  0%] Built target _json_prolog_msgs_generate_messages_check_deps_PrologQuery
+[  0%] Built target _json_prolog_msgs_generate_messages_check_deps_PrologFinish
+[  7%] [34m[1mCompiling Java code for json_prolog_msgs
+[0m[ 38%] Built target json_prolog_msgs_generate_messages_py
+[ 61%] Built target json_prolog_msgs_generate_messages_lisp
+[ 69%] [ 92%] Built target json_prolog_msgs_generate_messages_java
+Built target json_prolog_msgs_generate_messages_cpp
+[100%] Built target json_prolog_msgs_generate_messages_java_gradle
+[100%] Built target json_prolog_msgs_generate_messages

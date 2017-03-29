@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: knowrob_map_data
+Description: Description of knowrob_map_data
+Version: 1.0.0
+Cflags: 
+Libs: -L/root/catkin_ws/install/lib 
+Requires: knowrob_map_tools

@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: knowrob_map_tools
+Description: Description of knowrob_map_tools
+Version: 1.0.0
+Cflags: 
+Libs: -L/root/catkin_ws/install/lib 
+Requires: comp_spatial rospy

@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target marker_localizer
+[0m[100%] [32mBuilding CXX object CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp: In member function 'void MarkerLocalizer::imageReceivedCallback(const ImageConstPtr&)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:103:36: error: no match for 'operator=' (operand types are 'std_msgs::Header_<std::allocator<void> >::_stamp_type {aka ros::Time}' and 'time_t {aka long int}')
+   knowrob_percept_msg.header.stamp = t;
+                                    ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:103:36: note: candidate is:
+In file included from /opt/ros/indigo/include/ros/ros.h:38:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:11,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/opt/ros/indigo/include/ros/time.h:176:22: note: ros::Time& ros::Time::operator=(const ros::Time&)
+   class ROSTIME_DECL Time : public TimeBase<Time, Duration>
+                      ^
+/opt/ros/indigo/include/ros/time.h:176:22: note:   no known conversion for argument 1 from 'time_t {aka long int}' to 'const ros::Time&'
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

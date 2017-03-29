@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: iai_robosherlock_msgs
+Description: Description of iai_robosherlock_msgs
+Version: 0.0.6
+Cflags: -I/root/catkin_ws/install/include
+Libs: -L/root/catkin_ws/install/lib 
+Requires: geometry_msgs designator_integration_msgs shape_msgs sensor_msgs actionlib_msgs message_runtime

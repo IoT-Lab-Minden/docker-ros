@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/iai_cad_downloader/lib/pkgconfig/iai_cad_downloader.pc

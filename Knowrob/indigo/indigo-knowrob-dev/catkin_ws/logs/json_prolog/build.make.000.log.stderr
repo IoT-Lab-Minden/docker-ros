@@ -1,0 +1,7 @@
+/root/catkin_ws/src/knowrob/json_prolog/src/prolog_bindings.cpp: In constructor 'json_prolog::detail::InitJsonGlib::InitJsonGlib()':
+/root/catkin_ws/src/knowrob/json_prolog/src/prolog_bindings.cpp:45:5: warning: 'void g_type_init()' is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:667) [-Wdeprecated-declarations]
+     g_type_init();
+     ^
+/root/catkin_ws/src/knowrob/json_prolog/src/prolog_bindings.cpp:45:17: warning: 'void g_type_init()' is deprecated (declared at /usr/include/glib-2.0/gobject/gtype.h:667) [-Wdeprecated-declarations]
+     g_type_init();
+                 ^

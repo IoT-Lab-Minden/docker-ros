@@ -1,0 +1,4 @@
+iai_cad_tools/iai_cad_downloader
+/root/catkin_ws/devel/.private/iai_cad_downloader/lib/pkgconfig/iai_cad_downloader.pc /root/catkin_ws/devel/lib/pkgconfig/iai_cad_downloader.pc
+/root/catkin_ws/devel/.private/iai_cad_downloader/share/iai_cad_downloader/cmake/iai_cad_downloaderConfig.cmake /root/catkin_ws/devel/share/iai_cad_downloader/cmake/iai_cad_downloaderConfig.cmake
+/root/catkin_ws/devel/.private/iai_cad_downloader/share/iai_cad_downloader/cmake/iai_cad_downloaderConfig-version.cmake /root/catkin_ws/devel/share/iai_cad_downloader/cmake/iai_cad_downloaderConfig-version.cmake

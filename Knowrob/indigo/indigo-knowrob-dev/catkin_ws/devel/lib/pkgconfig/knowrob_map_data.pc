@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/knowrob_map_data/lib/pkgconfig/knowrob_map_data.pc

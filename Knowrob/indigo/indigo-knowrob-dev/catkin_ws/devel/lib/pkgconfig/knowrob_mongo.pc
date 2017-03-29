@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/knowrob_mongo/lib/pkgconfig/knowrob_mongo.pc

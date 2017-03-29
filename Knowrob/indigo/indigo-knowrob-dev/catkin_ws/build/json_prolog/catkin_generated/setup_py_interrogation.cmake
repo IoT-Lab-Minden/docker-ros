@@ -1,0 +1,6 @@
+set(json_prolog_SETUP_PY_VERSION "0.1.0")
+set(json_prolog_SETUP_PY_SCRIPTS "")
+set(json_prolog_SETUP_PY_PACKAGES "json_prolog")
+set(json_prolog_SETUP_PY_PACKAGE_DIRS "src/json_prolog")
+set(json_prolog_SETUP_PY_MODULES "")
+set(json_prolog_SETUP_PY_MODULE_DIRS "")

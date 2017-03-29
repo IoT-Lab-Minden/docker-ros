@@ -1,0 +1,2 @@
+set(designator_integration_msgs_MESSAGE_FILES "/root/catkin_ws/src/iai_common_msgs/designator_integration_msgs/msg/Designator.msg;/root/catkin_ws/src/iai_common_msgs/designator_integration_msgs/msg/KeyValuePair.msg;/root/catkin_ws/src/iai_common_msgs/designator_integration_msgs/msg/DesignatorRequest.msg;/root/catkin_ws/src/iai_common_msgs/designator_integration_msgs/msg/DesignatorResponse.msg")
+set(designator_integration_msgs_SERVICE_FILES "/root/catkin_ws/src/iai_common_msgs/designator_integration_msgs/srv/DesignatorCommunication.srv")

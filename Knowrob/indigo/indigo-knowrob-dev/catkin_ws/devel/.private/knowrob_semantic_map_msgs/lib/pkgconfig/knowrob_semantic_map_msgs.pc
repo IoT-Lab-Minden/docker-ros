@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/knowrob_semantic_map_msgs
+
+Name: knowrob_semantic_map_msgs
+Description: Description of knowrob_semantic_map_msgs
+Version: 1.0.1
+Cflags: -I/root/catkin_ws/devel/.private/knowrob_semantic_map_msgs/include
+Libs: -L/root/catkin_ws/devel/.private/knowrob_semantic_map_msgs/lib 
+Requires: message_runtime

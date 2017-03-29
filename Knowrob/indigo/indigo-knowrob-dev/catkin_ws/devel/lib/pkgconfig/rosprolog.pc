@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/rosprolog/lib/pkgconfig/rosprolog.pc

@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: planning_msgs
+Description: Description of planning_msgs
+Version: 0.0.6
+Cflags: -I/root/catkin_ws/install/include
+Libs: -L/root/catkin_ws/install/lib 
+Requires: message_runtime

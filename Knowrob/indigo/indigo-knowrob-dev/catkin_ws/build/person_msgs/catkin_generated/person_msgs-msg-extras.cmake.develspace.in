@@ -1,0 +1,2 @@
+set(person_msgs_MESSAGE_FILES "/root/catkin_ws/src/iai_common_msgs/person_msgs/msg/Skeleton2D.msg;/root/catkin_ws/src/iai_common_msgs/person_msgs/msg/Skeleton3D.msg;/root/catkin_ws/src/iai_common_msgs/person_msgs/msg/Person.msg;/root/catkin_ws/src/iai_common_msgs/person_msgs/msg/PointEvents.msg;/root/catkin_ws/src/iai_common_msgs/person_msgs/msg/SkeletonBBox.msg")
+set(person_msgs_SERVICE_FILES "")

@@ -1,0 +1,17 @@
+# indigo-knowrob-interactive
+## Base image for knowrob containers
+
+### Diff (ubuntu:14.04)
+
+- Preinstalled ROS
+- Preinstalled Java
+- Predefined user "ros"
+- Predefined environment variables
+- Predefined maven mirror (nexus)
+
+
+### Tutorial
+
+- [ ] ./build
+- [ ] ./StartKnowRobContainer
+

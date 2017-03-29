@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/knowrob_map_data/share/knowrob_map_data/cmake/knowrob_map_dataConfig-version.cmake

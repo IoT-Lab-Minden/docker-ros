@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/knowrob_actions
+
+Name: knowrob_actions
+Description: Description of knowrob_actions
+Version: 1.0.0
+Cflags: 
+Libs: -L/root/catkin_ws/devel/.private/knowrob_actions/lib 
+Requires: knowrob_common knowrob_objects

@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/comp_spatial
+
+Name: comp_spatial
+Description: Description of comp_spatial
+Version: 1.0.0
+Cflags: 
+Libs: -L/root/catkin_ws/devel/.private/comp_spatial/lib 
+Requires: knowrob_common comp_temporal

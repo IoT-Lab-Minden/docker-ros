@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/grasp_stability_msgs/include/grasp_stability_msgs/Control.h

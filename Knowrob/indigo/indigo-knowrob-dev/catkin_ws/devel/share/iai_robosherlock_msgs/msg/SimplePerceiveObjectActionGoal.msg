@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/iai_robosherlock_msgs/share/iai_robosherlock_msgs/msg/SimplePerceiveObjectActionGoal.msg

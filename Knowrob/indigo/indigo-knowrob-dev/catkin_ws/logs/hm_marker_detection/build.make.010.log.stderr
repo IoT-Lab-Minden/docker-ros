@@ -1,0 +1,16 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp: In function 'int main(int, char**)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:154:1: error: 'Prolog' was not declared in this scope
+ Prolog pl;
+ ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:154:1: note: suggested alternative:
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:23:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog.h:41:7: note:   'json_prolog::Prolog'
+ class Prolog
+       ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:154:8: error: expected ';' before 'pl'
+ Prolog pl;
+        ^
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,4 @@
+knowrob/knowrob_actions
+/root/catkin_ws/devel/.private/knowrob_actions/lib/pkgconfig/knowrob_actions.pc /root/catkin_ws/devel/lib/pkgconfig/knowrob_actions.pc
+/root/catkin_ws/devel/.private/knowrob_actions/share/knowrob_actions/cmake/knowrob_actionsConfig-version.cmake /root/catkin_ws/devel/share/knowrob_actions/cmake/knowrob_actionsConfig-version.cmake
+/root/catkin_ws/devel/.private/knowrob_actions/share/knowrob_actions/cmake/knowrob_actionsConfig.cmake /root/catkin_ws/devel/share/knowrob_actions/cmake/knowrob_actionsConfig.cmake

@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/json_prolog/share/json_prolog/cmake/json_prologConfig-version.cmake

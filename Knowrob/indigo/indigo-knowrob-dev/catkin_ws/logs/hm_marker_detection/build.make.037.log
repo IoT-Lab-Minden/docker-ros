@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target marker_localizer
+[0m[100%] [32mBuilding CXX object CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:25:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h:65:19: error: expected unqualified-id before 'namespace'
+   _namespace_type namespace;
+                   ^
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:25:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h: In constructor 'knowrob_semantic_map_msgs::SemMap_<ContainerAllocator>::SemMap_()':
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h:35:7: error: expected identifier before 'namespace'
+     , namespace()
+       ^
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h:35:7: error: expected '{' before 'namespace'
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h: In constructor 'knowrob_semantic_map_msgs::SemMap_<ContainerAllocator>::SemMap_(const ContainerAllocator&)':
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h:47:7: error: expected identifier before 'namespace'
+     , namespace(_alloc)
+       ^
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h:47:7: error: expected '{' before 'namespace'
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:25:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h: In static member function 'static void ros::serialization::Serializer<knowrob_semantic_map_msgs::SemMap_<ContainerAllocator> >::allInOne(Stream&, T)':
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h:348:21: error: expected unqualified-id before 'namespace'
+       stream.next(m.namespace);
+                     ^
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h: In static member function 'static void ros::message_operations::Printer<knowrob_semantic_map_msgs::SemMap_<ContainerAllocator> >::stream(Stream&, const string&, const knowrob_semantic_map_msgs::SemMap_<ContainerAllocator>&)':
+/root/catkin_ws/devel/include/knowrob_semantic_map_msgs/SemMap.h:379:151: error: expected unqualified-id before 'namespace'
+     Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.namespace);
+                                                                                                                                                       ^
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

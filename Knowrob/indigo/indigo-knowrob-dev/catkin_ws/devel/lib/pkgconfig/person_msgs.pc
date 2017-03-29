@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/person_msgs/lib/pkgconfig/person_msgs.pc

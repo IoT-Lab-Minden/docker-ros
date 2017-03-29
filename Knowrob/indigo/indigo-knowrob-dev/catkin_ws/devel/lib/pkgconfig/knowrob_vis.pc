@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/knowrob_vis/lib/pkgconfig/knowrob_vis.pc

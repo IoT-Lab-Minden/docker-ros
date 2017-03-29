@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel/.private/knowrob_srdl
+
+Name: knowrob_srdl
+Description: Description of knowrob_srdl
+Version: 0.1.0
+Cflags: 
+Libs: -L/root/catkin_ws/devel/.private/knowrob_srdl/lib 
+Requires: knowrob_common urdf

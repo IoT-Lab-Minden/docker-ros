@@ -1,0 +1,8 @@
+[100%] [34m[1mGradling tasks for knowrob_vis
+[0m[0mUploading: org/knowrob/knowrob_vis/data_vis_msgs/0.0.6/data_vis_msgs-0.0.6.jar to repository remote at file:/root/catkin_ws/devel/.private/knowrob_vis/share/maven/
+Transferring 3K from remote
+Uploaded 3K
+Uploading: org/knowrob/knowrob_vis/knowrob_vis/0.1.0/knowrob_vis-0.1.0.jar to repository remote at file:/root/catkin_ws/devel/.private/knowrob_vis/share/maven/
+Transferring 46K from remote
+Uploaded 46K
+[0m[100%] Built target gradle-knowrob_vis

@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/iai_urdf_msgs/lib/pkgconfig/iai_urdf_msgs.pc

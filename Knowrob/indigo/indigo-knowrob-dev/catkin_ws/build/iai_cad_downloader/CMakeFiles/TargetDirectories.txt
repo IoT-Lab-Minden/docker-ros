@@ -1,0 +1,8 @@
+/root/catkin_ws/build/iai_cad_downloader/CMakeFiles/_catkin_empty_exported_target.dir
+/root/catkin_ws/build/iai_cad_downloader/CMakeFiles/clean_test_results.dir
+/root/catkin_ws/build/iai_cad_downloader/CMakeFiles/download_extra_data.dir
+/root/catkin_ws/build/iai_cad_downloader/CMakeFiles/doxygen.dir
+/root/catkin_ws/build/iai_cad_downloader/gtest/CMakeFiles/gtest.dir
+/root/catkin_ws/build/iai_cad_downloader/gtest/CMakeFiles/gtest_main.dir
+/root/catkin_ws/build/iai_cad_downloader/CMakeFiles/run_tests.dir
+/root/catkin_ws/build/iai_cad_downloader/CMakeFiles/tests.dir

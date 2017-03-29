@@ -1,0 +1,17 @@
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:8:0:
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/include/hm_marker_detection/MarkerLocalizer.h:137:18: error: expected ';' at end of member declaration
+   ros::Publisher m_markerPosePublisher_Knowrob
+                  ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp: In constructor 'MarkerLocalizer::MarkerLocalizer()':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:36:34: error: 'n' was not declared in this scope
+  m_markerPosePublisher_Knowrob = n.advertise<std_msgs::String>("chatter", 1000);
+                                  ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:36:62: error: expected primary-expression before '>' token
+  m_markerPosePublisher_Knowrob = n.advertise<std_msgs::String>("chatter", 1000);
+                                                              ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:36:75: warning: left operand of comma operator has no effect [-Wunused-value]
+  m_markerPosePublisher_Knowrob = n.advertise<std_msgs::String>("chatter", 1000);
+                                                                           ^
+make[2]: *** [CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_localizer.dir/all] Error 2
+make: *** [all] Error 2

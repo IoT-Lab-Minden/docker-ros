@@ -1,0 +1,11 @@
+/root/catkin_ws/build/knowrob_common/CMakeFiles/_catkin_empty_exported_target.dir
+/root/catkin_ws/build/knowrob_common/CMakeFiles/clean_test_results.dir
+/root/catkin_ws/build/knowrob_common/CMakeFiles/download_extra_data.dir
+/root/catkin_ws/build/knowrob_common/CMakeFiles/doxygen.dir
+/root/catkin_ws/build/knowrob_common/CMakeFiles/gradle-clean.dir
+/root/catkin_ws/build/knowrob_common/CMakeFiles/gradle-clean-knowrob_common.dir
+/root/catkin_ws/build/knowrob_common/CMakeFiles/gradle-knowrob_common.dir
+/root/catkin_ws/build/knowrob_common/gtest/CMakeFiles/gtest.dir
+/root/catkin_ws/build/knowrob_common/gtest/CMakeFiles/gtest_main.dir
+/root/catkin_ws/build/knowrob_common/CMakeFiles/run_tests.dir
+/root/catkin_ws/build/knowrob_common/CMakeFiles/tests.dir

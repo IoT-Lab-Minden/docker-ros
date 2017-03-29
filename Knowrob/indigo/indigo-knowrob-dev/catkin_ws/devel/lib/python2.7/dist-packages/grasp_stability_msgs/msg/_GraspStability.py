@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/grasp_stability_msgs/lib/python2.7/dist-packages/grasp_stability_msgs/msg/_GraspStability.py

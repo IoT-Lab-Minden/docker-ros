@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/knowrob_common/lib/pkgconfig/knowrob_common.pc

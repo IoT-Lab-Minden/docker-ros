@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/comp_orgprinciples/lib/pkgconfig/comp_orgprinciples.pc

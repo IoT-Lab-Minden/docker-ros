@@ -1,0 +1,35 @@
+FROM nimmis/golang
+
+RUN useradd -ms /bin/bash golang
+RUN adduser golang sudo
+
+USER root
+RUN apt-get update && apt-get -qq install -y git ssh sudo
+
+
+
+RUN mkdir /app
+
+# Initialize the catkin workspace
+RUN "sh" "-c" "echo nameserver 8.8.8.8 >> /etc/resolv.conf"
+USER golang
+RUN mkdir /home/golang/.ssh
+ADD /.ssh/id_docker_rsa /home/golang/.ssh/id_rsa 
+ADD /.ssh/config /home/golang/.ssh/config
+
+USER root
+RUN chmod  a+r /home/golang/.ssh/id_rsa
+RUN chmod  600 /home/golang/.ssh/config
+RUN echo "    IdentityFile /home/golang/.ssh/id_rsa" >> /etc/ssh/ssh_config
+RUN chmod 600 /home/golang/.ssh/id_rsa
+RUN chown -R golang /home/golang/
+USER golang
+RUN ssh-keyscan -H 172.20.24.10 >> /home/golang/.ssh/known_hosts
+RUN eval $(ssh-agent) && \
+	 ssh-add /home/golang/.ssh/id_rsa
+WORKDIR /home/golang
+RUN git clone git@172.20.24.10:apoertner/GAME.git /home/golang/app/
+
+WORKDIR /home/golang/app
+RUN go build -o main . 
+CMD ["/app/main"]

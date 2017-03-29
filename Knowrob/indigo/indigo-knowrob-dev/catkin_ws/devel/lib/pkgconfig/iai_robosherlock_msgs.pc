@@ -1,0 +1,1 @@
+/root/catkin_ws/devel/.private/iai_robosherlock_msgs/lib/pkgconfig/iai_robosherlock_msgs.pc
