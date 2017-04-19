@@ -91,6 +91,6 @@ ENV DOCKER_LINKS mongo_db:mongo
 ENV DOCKER_VOLUMES episode_data:ro mesh_data
 
 
-ENTRYPOINT echo "export ROS_IP="awk 'END{print $1}' /etc/hosts
+#ENTRYPOINT echo "export ROS_IP="awk 'END{print $1}' /etc/hosts
 # Forward ports: webserver + rosbridge
 EXPOSE 1111 9090

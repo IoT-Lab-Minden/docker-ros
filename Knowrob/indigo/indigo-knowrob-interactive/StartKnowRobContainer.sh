@@ -1,1 +1,1 @@
-sudo docker run -t -P -i docker-knowrob /bin/bash
+sudo docker run -t -P -i iotlab/docker-knowrob-interactive /bin/bash
