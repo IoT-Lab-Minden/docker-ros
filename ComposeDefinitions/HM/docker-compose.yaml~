@@ -1,0 +1,40 @@
+version: '3'
+services: 
+ rosmaster:
+  image: rs09-min:5000/docker-knowrob-master
+  environment:
+   - ROS_IP=hm_rosmaster_1
+  stdin_open: true
+  tty: true
+  deploy:
+      placement:
+        constraints: [node.id == ufnozhwq43wtz087478vnud93]
+ rviz:
+  image: rs09-min:5000/indigo-knowrob-rviz
+  environment: 
+   - DISPLAY=$DISPLAY
+   - ROS_URI=http://hm_rosmaster_1:11311
+  depends_on:
+   - "rosmaster"
+  volumes: 
+   - /tmp/.X11-unix:/tmp/.X11-unix
+  deploy:
+      placement:
+        constraints: [node.id == ufnozhwq43wtz087478vnud93]
+ camerared:
+   image: rs09-min:5000/indigo-knowrob-smart-camera
+   environment: 
+   - ROS_URI=http://hm_rosmaster_1:11311
+   - CAMERA_NAME=CamRed
+   - CAMERA_X=1.96
+   - CAMERA_Y=1.54
+   - CAMERA_Z=2.95
+   - CAMERA_YAW=1.5707963267948966
+   - CAMERA_PITCH=1.5707963267948966
+   depends_on:
+    - "rosmaster"
+   devices:
+    - "/dev/video0:/dev/video0"
+   deploy:
+     placement:
+      constraints: [node.id == gw8kc2dqyhcu4wbqtycebsyz0]   

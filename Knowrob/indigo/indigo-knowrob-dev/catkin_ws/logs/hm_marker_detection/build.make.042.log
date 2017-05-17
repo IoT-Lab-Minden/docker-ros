@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target marker_localizer
-[0m[100%] [32mBuilding CXX object CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o
-/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp: In member function 'void MarkerLocalizer::imageReceivedCallback(const ImageConstPtr&)':
-/root/catkin_ws/src/Seerose/SourceCode/ROS/hm_marker_detection/src/MarkerLocalizer.cpp:102:10: warning: unused variable 't' [-Wunused-variable]
-   time_t t = time(0);
-          ^
-[0m[31m[1mLinking CXX executable /root/catkin_ws/devel/.private/hm_marker_detection/lib/hm_marker_detection/marker_localizer
-[0m[100%] Built target marker_localizer

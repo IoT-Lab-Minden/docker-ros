@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "knowrob_knowledge_base")
 set(knowrob_knowledge_base_VERSION "0.0.0")
-set(knowrob_knowledge_base_MAINTAINER "root <root@todo.todo>")
+set(knowrob_knowledge_base_MAINTAINER "Aljoscha Pörtner <aljoscha.poertner@fh-bielefeld.de>")
 set(knowrob_knowledge_base_PACKAGE_FORMAT "1")
 set(knowrob_knowledge_base_BUILD_DEPENDS )
 set(knowrob_knowledge_base_BUILD_EXPORT_DEPENDS )

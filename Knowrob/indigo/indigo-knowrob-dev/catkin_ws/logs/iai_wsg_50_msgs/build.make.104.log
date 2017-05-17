@@ -1,0 +1,17 @@
+[  0%] Built target _iai_wsg_50_msgs_generate_messages_check_deps_Move
+[  0%] Built target _iai_wsg_50_msgs_generate_messages_check_deps_PositionCmd
+[  0%] Built target _iai_wsg_50_msgs_generate_messages_check_deps_SpeedCmd
+[  0%] [  0%] Built target std_msgs_generate_messages_py
+Built target _iai_wsg_50_msgs_generate_messages_check_deps_Incr
+[  3%] [34m[1mCompiling Java code for iai_wsg_50_msgs
+[0m[  3%] Built target _iai_wsg_50_msgs_generate_messages_check_deps_Conf
+[  3%] Built target std_msgs_generate_messages_cpp
+[  3%] [  3%] Built target _iai_wsg_50_msgs_generate_messages_check_deps_Status
+Built target std_msgs_generate_messages_lisp
+[  3%] Built target _iai_wsg_50_msgs_generate_messages_check_deps_Cmd
+[ 46%] [ 65%] Built target iai_wsg_50_msgs_generate_messages_cpp
+Built target iai_wsg_50_msgs_generate_messages_py
+[ 69%] Built target iai_wsg_50_msgs_generate_messages_java
+[ 96%] Built target iai_wsg_50_msgs_generate_messages_lisp
+[100%] Built target iai_wsg_50_msgs_generate_messages_java_gradle
+[100%] Built target iai_wsg_50_msgs_generate_messages

@@ -1,0 +1,15 @@
+[  0%] Built target _designator_integration_msgs_generate_messages_check_deps_DesignatorResponse
+[  0%] Built target _designator_integration_msgs_generate_messages_check_deps_KeyValuePair
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _designator_integration_msgs_generate_messages_check_deps_Designator
+[  0%] Built target _designator_integration_msgs_generate_messages_check_deps_DesignatorCommunication
+[  0%] Built target _designator_integration_msgs_generate_messages_check_deps_DesignatorRequest
+[  5%] [34m[1mCompiling Java code for designator_integration_msgs
+[0m[ 10%] Built target designator_integration_msgs_generate_messages_java_gradle
+[ 15%] Built target designator_integration_msgs_generate_messages_java
+[ 15%] Built target geometry_msgs_generate_messages_cpp
+[ 15%] Built target geometry_msgs_generate_messages_lisp
+[ 50%] Built target designator_integration_msgs_generate_messages_py
+[ 75%] Built target designator_integration_msgs_generate_messages_cpp
+[100%] Built target designator_integration_msgs_generate_messages_lisp
+[100%] Built target designator_integration_msgs_generate_messages

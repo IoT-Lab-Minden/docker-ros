@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/root/catkin_ws/devel/.private/knowrob_knowledge_base:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/root/catkin_ws/devel/.private/knowrob_knowledge_base/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/root/catkin_ws/devel/.private/knowrob_knowledge_base/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/root/catkin_ws/build/knowrob_knowledge_base"
 export ROSLISP_PACKAGE_DIRECTORIES="/root/catkin_ws/devel/.private/knowrob_knowledge_base/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_MAVEN_DEPLOYMENT_REPOSITORY="/root/catkin_ws/devel/.private/knowrob_knowledge_base/share/maven"

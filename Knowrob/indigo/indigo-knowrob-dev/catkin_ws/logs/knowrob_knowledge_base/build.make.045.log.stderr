@@ -1,0 +1,7 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'void chatterCallback(knowrob_semantic_map_msgs::SemMapObject)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:7:30: error: base operand of '->' has non-pointer type 'const SemMapObject {aka const knowrob_semantic_map_msgs::SemMapObject_<std::allocator<void> >}'
+   printf("I heard: [%s]", msg->data.c_str());
+                              ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2

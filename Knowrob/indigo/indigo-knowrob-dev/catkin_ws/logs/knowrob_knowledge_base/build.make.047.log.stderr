@@ -1,0 +1,19 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'void chatterCallback(knowrob_semantic_map_msgs::SemMapObject&)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:7:30: error: base operand of '->' has non-pointer type 'knowrob_semantic_map_msgs::SemMapObject'
+   printf("I heard: [%s]", msg->data.c_str());
+                              ^
+In file included from /opt/ros/indigo/include/ros/subscription_callback_helper.h:35:0,
+                 from /opt/ros/indigo/include/ros/subscriber.h:33,
+                 from /opt/ros/indigo/include/ros/node_handle.h:33,
+                 from /opt/ros/indigo/include/ros/ros.h:45,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/include/knowrob_knowledge_base/listener.h:1,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:1:
+/opt/ros/indigo/include/ros/parameter_adapter.h: In instantiation of 'static ros::ParameterAdapter<M>::Parameter ros::ParameterAdapter<M>::getParameter(const Event&) [with M = knowrob_semantic_map_msgs::SemMapObject_<std::allocator<void> >&; ros::ParameterAdapter<M>::Parameter = knowrob_semantic_map_msgs::SemMapObject_<std::allocator<void> >&; ros::ParameterAdapter<M>::Event = ros::MessageEvent<const knowrob_semantic_map_msgs::SemMapObject_<std::allocator<void> > >; typename boost::remove_reference<typename boost::remove_const<M>::type>::type = knowrob_semantic_map_msgs::SemMapObject_<std::allocator<void> >]':
+/opt/ros/indigo/include/ros/subscription_callback_helper.h:144:54:   required from 'void ros::SubscriptionCallbackHelperT<P, Enabled>::call(ros::SubscriptionCallbackHelperCallParams&) [with P = knowrob_semantic_map_msgs::SemMapObject_<std::allocator<void> >&; Enabled = void]'
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:57:1:   required from here
+/opt/ros/indigo/include/ros/parameter_adapter.h:78:30: error: invalid initialization of reference of type 'ros::ParameterAdapter<knowrob_semantic_map_msgs::SemMapObject_<std::allocator<void> >&>::Parameter {aka knowrob_semantic_map_msgs::SemMapObject_<std::allocator<void> >&}' from expression of type 'const knowrob_semantic_map_msgs::SemMapObject_<std::allocator<void> >'
+     return *event.getMessage();
+                              ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2

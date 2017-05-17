@@ -1,0 +1,27 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'void perceptCallback(knowrob_semantic_map_msgs::SemMapObject)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:11:31: error: no matching function for call to 'poseMsgToEigen(knowrob_semantic_map_msgs::SemMapObject&, Eigen::Affine3d&)'
+   tf::poseMsgToEigen(msg,eigen);
+                               ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:11:31: note: candidates are:
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/include/knowrob_knowledge_base/listener.h:9:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:1:
+/opt/ros/indigo/include/eigen_conversions/eigen_msg.h:58:6: note: void tf::poseMsgToEigen(const Pose&, Eigen::Affine3d&)
+ void poseMsgToEigen(const geometry_msgs::Pose &m, Eigen::Affine3d &e);
+      ^
+/opt/ros/indigo/include/eigen_conversions/eigen_msg.h:58:6: note:   no known conversion for argument 1 from 'knowrob_semantic_map_msgs::SemMapObject' to 'const Pose& {aka const geometry_msgs::Pose_<std::allocator<void> >&}'
+/opt/ros/indigo/include/eigen_conversions/eigen_msg.h:61:6: note: void tf::poseMsgToEigen(const Pose&, Eigen::Isometry3d&)
+ void poseMsgToEigen(const geometry_msgs::Pose &m, Eigen::Isometry3d &e);
+      ^
+/opt/ros/indigo/include/eigen_conversions/eigen_msg.h:61:6: note:   no known conversion for argument 1 from 'knowrob_semantic_map_msgs::SemMapObject' to 'const Pose& {aka const geometry_msgs::Pose_<std::allocator<void> >&}'
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:13:24: error: invalid operands of types 'const char [26]' and 'const char [36]' to binary 'operator+'
+                        "'http://knowrob.org/kb/knowrob.owl#"+obj.getType()+"', ["
+                        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:13:62: error: 'obj' was not declared in this scope
+                        "'http://knowrob.org/kb/knowrob.owl#"+obj.getType()+"', ["
+                                                              ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:14:26: error: 'p' was not declared in this scope
+                        + p.m00 + ","+ p.m01 + ","+ p.m02 + ","+ p.m03 + ","
+                          ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2

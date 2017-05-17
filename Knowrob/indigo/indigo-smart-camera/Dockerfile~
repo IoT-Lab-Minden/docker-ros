@@ -15,7 +15,7 @@ ADD /.ssh/config /home/ros/.ssh/config
 RUN chmod  a+r /home/ros/.ssh/id_rsa
 RUN chmod  600 /home/ros/.ssh/config
 RUN  echo "    IdentityFile ~/.ssh/id_rsa" >> /etc/ssh/ssh_config
-RUN ssh-keyscan -H 172.20.24.10 >> ~/.ssh/known_hosts
+RUN ssh-keyscan -H 172.20.24.2 >> ~/.ssh/known_hosts
 
 USER ros
 WORKDIR /home/ros/src
@@ -26,9 +26,9 @@ RUN echo "Cloning repositories..."
 RUN eval $(ssh-agent) && \
 	 ssh-add /home/ros/.ssh/id_rsa
 
-
-RUN git clone http://172.20.24.10/Robotic/turtlebot_base_controller.git
-RUN git clone git@172.20.24.10:Seerose/Seerose.git --branch hannover_messe --single-branch
+RUN git clone http://172.20.24.2/Robotic/turtlebot_base_controller.git
+RUN git clone git@172.20.24.2:Seerose/Seerose.git --branch knowrob_hannover_messe --single-branch
+RUN git clone https://github.com/ethz-asl/knowrob-semantic-map-msgs.git
 
 
 # Install ROS Packages 
@@ -41,7 +41,7 @@ RUN add-apt-repository "deb http://us.archive.ubuntu.com/ubuntu/ trusty universe
 RUN add-apt-repository "deb http://us.archive.ubuntu.com/ubuntu/ trusty-updates universe multiverse"
 
 RUN apt-get -qq -y update && \
-    apt-get -qq -y install ros-indigo-kobuki-msgs ros-indigo-frontier-exploration ros-indigo-aruco ros-indigo-aruco-* ros-indigo-yocs-controllers ros-indigo-aruco-msgs ros-indigo-move-base ros-indigo-move-base-msgs ros-indigo-camera-info-manager ros-indigo-ecl-threads && \
+    apt-get -qq -y install ros-indigo-kobuki-msgs ros-indigo-frontier-exploration ros-indigo-aruco ros-indigo-aruco-* ros-indigo-yocs-controllers ros-indigo-aruco-msgs ros-indigo-move-base ros-indigo-move-base-msgs ros-indigo-camera-info-manager ros-indigo-ecl-threads ros-indigo-usb-cam && \
     apt-get -qq -y autoremove && \
     apt-get -qq -y clean 
 
@@ -49,7 +49,14 @@ USER root
 WORKDIR /home/ros
 # Build the catkin workspace
 RUN catkin config --blacklist duo3d_ros messe_demo
-#RUN /opt/ros/indigo/bin/catkin_make
+RUN rm -R devel/ && rm -R build/
+ENV TERM xterm
+RUN catkin build
 
-
+USER ros
+ENV HOME /home/ros
+ADD startup.sh /home/ros/startup.sh
+USER root
+RUN chmod 777 /home/ros/startup.sh
+ENTRYPOINT ["/home/ros/startup.sh"]  
 # ENTRYPOINT /opt/ros/indigo/bin/roslaunch knowrob_vis knowrob_vis.launch

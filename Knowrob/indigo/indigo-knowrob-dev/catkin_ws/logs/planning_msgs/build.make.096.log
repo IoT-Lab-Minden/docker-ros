@@ -1,0 +1,11 @@
+[  5%] [34m[1mCompiling Java code for planning_msgs
+[0m[  5%] Built target _planning_msgs_generate_messages_check_deps_Plan
+[ 11%] Built target planning_msgs_generate_messages_java_gradle
+[ 11%] Built target _planning_msgs_generate_messages_check_deps_Step
+[ 11%] Built target _planning_msgs_generate_messages_check_deps_Binding
+[ 11%] Built target _planning_msgs_generate_messages_check_deps_Planning
+[ 47%] Built target planning_msgs_generate_messages_py
+[ 70%] Built target planning_msgs_generate_messages_cpp
+[ 94%] Built target planning_msgs_generate_messages_lisp
+[100%] Built target planning_msgs_generate_messages_java
+[100%] Built target planning_msgs_generate_messages

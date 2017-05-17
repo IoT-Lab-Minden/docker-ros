@@ -1,0 +1,15 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'void chatterCallback(const ConstPtr&)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:8:3: error: 'cout' was not declared in this scope
+   cout << "Test";
+   ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:8:3: note: suggested alternative:
+In file included from /opt/ros/indigo/include/ros/time.h:54:0,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/include/knowrob_knowledge_base/listener.h:1,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:1:
+/usr/include/c++/4.8/iostream:61:18: note:   'std::cout'
+   extern ostream cout;  /// Linked to standard output
+                  ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2

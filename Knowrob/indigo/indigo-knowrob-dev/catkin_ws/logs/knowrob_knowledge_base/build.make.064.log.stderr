@@ -1,0 +1,7 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'int main(int, char**)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:61:33: error: expected unqualified-id before '=' token
+   json_prolog::PrologQueryProxy = pl.query("owl_parse('path/to/file.owl').")
+                                 ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2

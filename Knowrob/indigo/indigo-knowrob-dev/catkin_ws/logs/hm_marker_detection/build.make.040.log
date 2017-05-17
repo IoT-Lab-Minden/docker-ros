@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target marker_localizer
-[0m[100%] [32mBuilding CXX object CMakeFiles/marker_localizer.dir/src/MarkerLocalizer.cpp.o
-[0m[31m[1mLinking CXX executable /root/catkin_ws/devel/.private/hm_marker_detection/lib/hm_marker_detection/marker_localizer
-[0m[100%] Built target marker_localizer

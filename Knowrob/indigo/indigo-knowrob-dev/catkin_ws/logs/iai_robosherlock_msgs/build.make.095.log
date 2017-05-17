@@ -1,0 +1,44 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target designator_integration_msgs_generate_messages_py
+[  0%] Built target shape_msgs_generate_messages_py
+[  0%] [  0%] [  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_HighlightObjectActionFeedback
+Built target actionlib_msgs_generate_messages_py
+Built target sensor_msgs_generate_messages_py
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_SimpleObjectPerceptionRequest
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_PerceivedObject
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_HighlightObjectFeedback
+[  0%] [  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_SimplePerceiveObjectResult
+Built target _iai_robosherlock_msgs_generate_messages_check_deps_HighlightObjectGoal
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_SimplePerceiveObjectActionFeedback
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_SimplePerceiveObjectAction
+[  0%] [  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_SimplePerceiveObjectActionResult
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_HighlightObjectAction
+Built target _iai_robosherlock_msgs_generate_messages_check_deps_RSQueryService
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_SetRSContext
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_PerceiveObject
+[  0%] [  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_PerceivedObjects
+Built target _iai_robosherlock_msgs_generate_messages_check_deps_SimplePerceiveObjectGoal
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_SimplePerceiveObjectActionGoal
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_HighlightObjectActionGoal
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_HighlightObjectActionResult
+[  0%] [  0%] [  0%] Built target geometry_msgs_generate_messages_cpp
+Built target actionlib_msgs_generate_messages_cpp
+Built target _iai_robosherlock_msgs_generate_messages_check_deps_HighlightObjectResult
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_SimplePerceiveObjectFeedback
+[  0%] Built target _iai_robosherlock_msgs_generate_messages_check_deps_PizzaPerceiveObject
+[  0%] Built target shape_msgs_generate_messages_cpp
+[  0%] [  0%] Built target designator_integration_msgs_generate_messages_cpp
+Built target sensor_msgs_generate_messages_cpp
+[  1%] [34m[1mCompiling Java code for iai_robosherlock_msgs
+[0m[  1%] Built target geometry_msgs_generate_messages_lisp
+[  1%] Built target designator_integration_msgs_generate_messages_java
+[  1%] Built target designator_integration_msgs_generate_messages_lisp
+[  1%] Built target shape_msgs_generate_messages_lisp
+[  1%] Built target actionlib_msgs_generate_messages_lisp
+[ 35%] [ 35%] Built target iai_robosherlock_msgs_generate_messages_py
+Built target sensor_msgs_generate_messages_lisp
+[ 36%] Built target iai_robosherlock_msgs_generate_messages_java
+[ 83%] [ 98%] Built target iai_robosherlock_msgs_generate_messages_lisp
+Built target iai_robosherlock_msgs_generate_messages_cpp
+[100%] Built target iai_robosherlock_msgs_generate_messages_java_gradle
+[100%] Built target iai_robosherlock_msgs_generate_messages

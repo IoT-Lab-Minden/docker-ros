@@ -1,4 +1,4 @@
-FROM iotlab/docker-knowrob-interactive
+FROM rs09-min:5000/docker-knowrob-interactive
 MAINTAINER Aljoscha Pörtner, aljoscha.poertner@fh-bielefeld.de
 
 

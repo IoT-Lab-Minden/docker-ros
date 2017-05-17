@@ -1,4 +1,4 @@
-FROM iotlab/indigo-swi
+FROM rs09-min:5000/indigo-swi
 MAINTAINER Daniel Beßler, danielb@cs.uni-bremen.de
 
 

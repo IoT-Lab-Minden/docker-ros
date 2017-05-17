@@ -1,0 +1,21 @@
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_SemMapObject
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_SemMapPrefix
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_SemMapObjectSize
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_SemMapAction
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_SemMapDataProperty
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_SemMapObjectProperty
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_GetSemanticMap
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_SemMap
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_SemMapActionFeedback
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_GenerateSemanticMapOWL
+[  0%] Built target _knowrob_semantic_map_msgs_generate_messages_check_deps_SemMapAddress
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  2%] Built target knowrob_semantic_map_msgs_generate_messages_java
+[  5%] [34m[1mCompiling Java code for knowrob_semantic_map_msgs
+[0m[  5%] Built target geometry_msgs_generate_messages_lisp
+[ 39%] Built target knowrob_semantic_map_msgs_generate_messages_py
+[ 68%] Built target knowrob_semantic_map_msgs_generate_messages_cpp
+[ 71%] Built target knowrob_semantic_map_msgs_generate_messages_java_gradle
+[100%] Built target knowrob_semantic_map_msgs_generate_messages_lisp
+[100%] Built target knowrob_semantic_map_msgs_generate_messages

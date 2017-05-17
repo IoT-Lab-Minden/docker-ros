@@ -3,6 +3,6 @@ prefix=/root/catkin_ws/devel/.private/knowrob_knowledge_base
 Name: knowrob_knowledge_base
 Description: Description of knowrob_knowledge_base
 Version: 0.0.0
-Cflags: 
+Cflags: -I/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/include
 Libs: -L/root/catkin_ws/devel/.private/knowrob_knowledge_base/lib 
 Requires: 

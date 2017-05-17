@@ -1,0 +1,32 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'int main(int, char**)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:60:3: error: 'Prolog' was not declared in this scope
+   Prolog pl;
+   ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:60:3: note: suggested alternative:
+In file included from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/include/knowrob_knowledge_base/listener.h:8:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:1:
+/root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog.h:41:7: note:   'json_prolog::Prolog'
+ class Prolog
+       ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:60:10: error: expected ';' before 'pl'
+   Prolog pl;
+          ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:61:3: error: 'PrologQueryProxy' was not declared in this scope
+   PrologQueryProxy = pl.query("owl_parse('path/to/file.owl').")
+   ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:61:3: note: suggested alternative:
+In file included from /root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog.h:36:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/include/knowrob_knowledge_base/listener.h:8,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:1:
+/root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog_query_proxy.h:45:7: note:   'json_prolog::PrologQueryProxy'
+ class PrologQueryProxy
+       ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:61:22: error: 'pl' was not declared in this scope
+   PrologQueryProxy = pl.query("owl_parse('path/to/file.owl').")
+                      ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:63:3: error: expected ';' before 'return'
+   return 0;
+   ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2

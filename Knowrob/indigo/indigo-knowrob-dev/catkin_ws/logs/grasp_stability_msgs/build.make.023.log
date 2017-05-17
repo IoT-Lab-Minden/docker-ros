@@ -1,9 +1,0 @@
-[  0%] Built target _grasp_stability_msgs_generate_messages_check_deps_Control
-[  0%] Built target _grasp_stability_msgs_generate_messages_check_deps_GraspStability
-[  9%] [34m[1mCompiling Java code for grasp_stability_msgs
-[0m[ 18%] Built target grasp_stability_msgs_generate_messages_java_gradle
-[ 36%] Built target grasp_stability_msgs_generate_messages_cpp
-[ 45%] Built target grasp_stability_msgs_generate_messages_java
-[ 81%] Built target grasp_stability_msgs_generate_messages_py
-[100%] Built target grasp_stability_msgs_generate_messages_lisp
-[100%] Built target grasp_stability_msgs_generate_messages

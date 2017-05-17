@@ -1,0 +1,30 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'void perceptCallback(knowrob_semantic_map_msgs::SemMapObject)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:24:7: error: 'PrologQueryProxy' has not been declared
+   for(PrologQueryProxy::iterator it=bdgs.begin();
+       ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:24:34: error: expected ';' before 'it'
+   for(PrologQueryProxy::iterator it=bdgs.begin();
+                                  ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:25:9: error: 'it' was not declared in this scope
+         it != bdgs.end(); it++)
+         ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:27:7: error: 'PrologBindings' was not declared in this scope
+       PrologBindings bdg = *it;
+       ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:27:7: note: suggested alternative:
+In file included from /root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog_query_proxy.h:38:0,
+                 from /root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog.h:36,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/include/knowrob_knowledge_base/listener.h:8,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:1:
+/root/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog_bindings.h:43:7: note:   'json_prolog::PrologBindings'
+ class PrologBindings
+       ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:27:22: error: expected ';' before 'bdg'
+       PrologBindings bdg = *it;
+                      ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:29:35: error: 'bdg' was not declared in this scope
+       std::cout << "ObjInst = "<< bdg["ObjInst"] << std::endl;
+                                   ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2

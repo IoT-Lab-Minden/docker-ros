@@ -1,0 +1,15 @@
+[  0%] Built target _person_msgs_generate_messages_check_deps_SkeletonBBox
+[  0%] Built target _person_msgs_generate_messages_check_deps_Skeleton2D
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] [  0%] Built target _person_msgs_generate_messages_check_deps_PointEvents
+Built target _person_msgs_generate_messages_check_deps_Skeleton3D
+[  0%] Built target _person_msgs_generate_messages_check_deps_Person
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  5%] [34m[1mCompiling Java code for person_msgs
+[0m[  5%] Built target geometry_msgs_generate_messages_cpp
+[ 31%] Built target person_msgs_generate_messages_lisp
+[ 63%] Built target person_msgs_generate_messages_py
+[ 68%] Built target person_msgs_generate_messages_java
+[ 94%] Built target person_msgs_generate_messages_cpp
+[100%] Built target person_msgs_generate_messages_java_gradle
+[100%] Built target person_msgs_generate_messages

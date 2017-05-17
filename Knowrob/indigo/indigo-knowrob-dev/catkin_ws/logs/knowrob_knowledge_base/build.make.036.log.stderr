@@ -1,0 +1,21 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'void chatterCallback(const ConstPtr&)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:8:15: error: 'print' was not declared in this scope
+   print("Test");
+               ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:8:15: note: suggested alternatives:
+In file included from /opt/ros/indigo/include/ros/ros.h:40:0,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/include/knowrob_knowledge_base/listener.h:1,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:1:
+/opt/ros/indigo/include/ros/console.h:157:22: note:   'ros::console::print'
+ ROSCONSOLE_DECL void print(FilterBase* filter, void* logger, Level level,
+                      ^
+In file included from /opt/ros/indigo/include/ros/console.h:35:0,
+                 from /opt/ros/indigo/include/ros/ros.h:40,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/include/knowrob_knowledge_base/listener.h:1,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:1:
+/opt/ros/indigo/include/ros/console_backend.h:60:6: note:   'ros::console::backend::print'
+ void print(void* logger_handle, ::ros::console::Level level, const char* str, const char* file, const char* function, int line);
+      ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2

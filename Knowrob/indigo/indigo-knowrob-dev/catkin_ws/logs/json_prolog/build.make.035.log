@@ -1,0 +1,24 @@
+[  0%] [ 14%] Built target json_prolog_msgs_generate_messages_cpp
+[ 14%] Built target json_prolog_msgs_generate_messages_java
+[ 14%] [ 14%] [34m[1mGradling tasks for json_prolog
+[0mBuilt target roscpp_generate_messages_cpp
+Built target roscpp_generate_messages_py
+[ 14%] Built target json_prolog_msgs_generate_messages_py
+[ 14%] [ 14%] Built target rosgraph_msgs_generate_messages_cpp
+Built target json_prolog_msgs_generate_messages_lisp
+[ 14%] Built target rosgraph_msgs_generate_messages_py
+[ 14%] Built target roscpp_generate_messages_lisp
+[ 14%] [ 14%] Built target rosgraph_msgs_generate_messages_lisp
+Built target std_msgs_generate_messages_lisp
+[ 14%] [ 14%] Built target std_msgs_generate_messages_py
+Built target std_msgs_generate_messages_cpp
+[ 71%] Built target json_prolog
+[100%] [100%] Built target test_json_prolog
+Built target object_positions
+[0mUploading: org/knowrob/json_prolog/json_prolog/0.1.0/json_prolog-0.1.0.jar to repository remote at file:/root/catkin_ws/devel/.private/json_prolog/share/maven/
+Transferring 43K from remote
+Uploaded 43K
+Uploading: org/knowrob/json_prolog/json_prolog_msgs/0.0.6/json_prolog_msgs-0.0.6.jar to repository remote at file:/root/catkin_ws/devel/.private/json_prolog/share/maven/
+Transferring 5K from remote
+Uploaded 5K
+[0m[100%] Built target gradle-json_prolog

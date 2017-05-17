@@ -1,0 +1,8 @@
+[ 14%] [34m[1mCompiling Java code for iai_urdf_msgs
+[0m[ 14%] Built target _iai_urdf_msgs_generate_messages_check_deps_AlterUrdf
+[ 28%] Built target iai_urdf_msgs_generate_messages_java
+[ 42%] Built target iai_urdf_msgs_generate_messages_lisp
+[ 57%] Built target iai_urdf_msgs_generate_messages_java_gradle
+[ 85%] [100%] Built target iai_urdf_msgs_generate_messages_py
+Built target iai_urdf_msgs_generate_messages_cpp
+[100%] Built target iai_urdf_msgs_generate_messages

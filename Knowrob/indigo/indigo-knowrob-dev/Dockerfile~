@@ -43,7 +43,7 @@ RUN mkdir /root/catkin_ws
 WORKDIR /root/catkin_ws
 #RUN /usr/bin/python /opt/ros/indigo/bin/catkin_init_workspace
 # Build the catkin workspace
-RUN catkin config --blacklist duo3d_ros messe_demo
+#RUN catkin config --blacklist duo3d_ros messe_demo
 #RUN /opt/ros/indigo/bin/catkin_make
 COPY gitUpdate.sh /root/gitUpdate.sh
 RUN chmod +x /root/gitUpdate.sh

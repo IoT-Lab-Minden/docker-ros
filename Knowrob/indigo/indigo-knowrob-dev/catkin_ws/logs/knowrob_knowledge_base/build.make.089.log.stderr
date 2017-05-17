@@ -1,0 +1,7 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'void perceptCallback(knowrob_semantic_map_msgs::SemMapObject)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:15:24: error: invalid operands of types 'const char [26]' and 'const char [36]' to binary 'operator+'
+                        "'http://knowrob.org/kb/knowrob.owl#"+msg.type+"', ["
+                        ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2

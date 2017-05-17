@@ -20,7 +20,7 @@ WORKDIR /home/ros
 RUN /opt/ros/indigo/bin/catkin_make
 
 USER root
-RUN apt-get install qt4-default
+#RUN apt-get install qt4-default
 # Replace 1000 with your user / group id
 RUN export uid=1000 gid=1000 && \
     mkdir -p /home/ros && \
@@ -35,6 +35,7 @@ ENV HOME /home/ros
 ADD startup.sh /home/ros/startup.sh
 USER root
 RUN chmod 777 /home/ros/startup.sh
+RUN ln /dev/null /dev/raw1394
 USER ros
 ENTRYPOINT ["/home/ros/startup.sh"]   
 # ENTRYPOINT /opt/ros/indigo/bin/roslaunch knowrob_vis knowrob_vis.launch

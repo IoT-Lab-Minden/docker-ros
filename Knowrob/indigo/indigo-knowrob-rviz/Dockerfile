@@ -1,4 +1,4 @@
-FROM iotlab/indigo-swi
+FROM rs09-min:5000/indigo-swi
 MAINTAINER Daniel Beßler, danielb@cs.uni-bremen.de
 
 # Initialize the catkin workspace
@@ -35,6 +35,7 @@ ENV HOME /home/ros
 ADD startup.sh /home/ros/startup.sh
 USER root
 RUN chmod 777 /home/ros/startup.sh
+RUN ln /dev/null /dev/raw1394
 USER ros
 ENTRYPOINT ["/home/ros/startup.sh"]   
 # ENTRYPOINT /opt/ros/indigo/bin/roslaunch knowrob_vis knowrob_vis.launch

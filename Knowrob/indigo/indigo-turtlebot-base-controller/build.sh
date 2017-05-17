@@ -1,5 +1,5 @@
 # Build knowrob interactive for IotLab
 # Author: Aljoscha Pörtner
 
-sudo docker build -t iotlab/docker-turtlebot-base-controller .
+sudo docker build -t rs09-min:5000/docker-turtlebot-base-controller .
 

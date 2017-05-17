@@ -8,5 +8,5 @@ HOST_IP=`ip route list dev docker0 | awk 'NR==1 {print $NF}'`
 #$DIR/../../scripts/start-apt-cacher
 #$DIR/../../scripts/start-nexus
 echo "Building openease/indigo-swi....";
-docker build --build-arg HOST_IP=${HOST_IP} "$@" -t iotlab/indigo-swi $DIR
+docker build --build-arg HOST_IP=${HOST_IP} "$@" -t rs09-min:5000/indigo-swi $DIR
 

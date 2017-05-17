@@ -1,0 +1,31 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'void perceptCallback(knowrob_semantic_map_msgs::SemMapObject)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:10:3: error: expected initializer before 'json_prolog'
+   json_prolog::PrologQueryProxy bdgs = pl.query("owl_individual_of(A, knowrob:'Aruco')");
+   ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:11:7: error: 'PrologQueryProxy' has not been declared
+   for(PrologQueryProxy::iterator it=bdgs.begin();
+       ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:11:34: error: expected ';' before 'it'
+   for(PrologQueryProxy::iterator it=bdgs.begin();
+                                  ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:12:9: error: 'it' was not declared in this scope
+         it != bdgs.end(); it++)
+         ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:12:15: error: 'bdgs' was not declared in this scope
+         it != bdgs.end(); it++)
+               ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:15:70: error: 'endl' was not declared in this scope
+       std::cout << "Found solution: " << (bool)(it == bdgs.end()) << endl;
+                                                                      ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:15:70: note: suggested alternative:
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from /opt/ros/indigo/include/ros/time.h:54,
+                 from /opt/ros/indigo/include/ros/ros.h:38,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/include/knowrob_knowledge_base/listener.h:1,
+                 from /root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:1:
+/usr/include/c++/4.8/ostream:564:5: note:   'std::endl'
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2

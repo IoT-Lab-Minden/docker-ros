@@ -28,7 +28,7 @@ RUN eval $(ssh-agent) && \
 	 ssh-add /home/ros/.ssh/id_rsa
 
 RUN git clone http://172.20.24.10/Robotic/turtlebot_base_controller.git
-RUN git clone git@172.20.24.10:Seerose/Seerose.git --branch hannover_messe --single-branch
+RUN git clone git@172.20.24.10:Seerose/Seerose.git --branch knowrob_hannover_messe --single-branch
 
 
 # Install ROS Packages 

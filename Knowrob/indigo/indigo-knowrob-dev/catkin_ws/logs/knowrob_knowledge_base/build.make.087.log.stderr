@@ -1,0 +1,58 @@
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp: In function 'void perceptCallback(knowrob_semantic_map_msgs::SemMapObject)':
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:15:24: error: invalid operands of types 'const char [26]' and 'const char [36]' to binary 'operator+'
+                        "'http://knowrob.org/kb/knowrob.owl#"+obj.getType()+"', ["
+                        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:15:62: error: 'obj' was not declared in this scope
+                        "'http://knowrob.org/kb/knowrob.owl#"+obj.getType()+"', ["
+                                                              ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:16:30: error: expected ')' before numeric constant
+                        + m(0 0) + ","+ m(0 1) + ","+ m(0 2) + ","+ m(0 3) + ","
+                              ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:16:44: error: expected ')' before numeric constant
+                        + m(0 0) + ","+ m(0 1) + ","+ m(0 2) + ","+ m(0 3) + ","
+                                            ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:16:58: error: expected ')' before numeric constant
+                        + m(0 0) + ","+ m(0 1) + ","+ m(0 2) + ","+ m(0 3) + ","
+                                                          ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:16:72: error: expected ')' before numeric constant
+                        + m(0 0) + ","+ m(0 1) + ","+ m(0 2) + ","+ m(0 3) + ","
+                                                                        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:17:30: error: expected ')' before numeric constant
+                        + m(1 0) + ","+ m(1 1) + ","+ m(1 2) + ","+ m(1 3) + ","
+                              ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:17:44: error: expected ')' before numeric constant
+                        + m(1 0) + ","+ m(1 1) + ","+ m(1 2) + ","+ m(1 3) + ","
+                                            ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:17:58: error: expected ')' before numeric constant
+                        + m(1 0) + ","+ m(1 1) + ","+ m(1 2) + ","+ m(1 3) + ","
+                                                          ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:17:72: error: expected ')' before numeric constant
+                        + m(1 0) + ","+ m(1 1) + ","+ m(1 2) + ","+ m(1 3) + ","
+                                                                        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:18:30: error: expected ')' before numeric constant
+                        + m(2 0) + ","+ m(2 1) + ","+ m(2 2) + ","+ m(2 3) + ","
+                              ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:18:44: error: expected ')' before numeric constant
+                        + m(2 0) + ","+ m(2 1) + ","+ m(2 2) + ","+ m(2 3) + ","
+                                            ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:18:58: error: expected ')' before numeric constant
+                        + m(2 0) + ","+ m(2 1) + ","+ m(2 2) + ","+ m(2 3) + ","
+                                                          ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:18:72: error: expected ')' before numeric constant
+                        + m(2 0) + ","+ m(2 1) + ","+ m(2 2) + ","+ m(2 3) + ","
+                                                                        ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:19:30: error: expected ')' before numeric constant
+                        + m(3 0) + ","+ m(3 1) + ","+ m(3 2) + ","+ m(3 3) +
+                              ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:19:44: error: expected ')' before numeric constant
+                        + m(3 0) + ","+ m(3 1) + ","+ m(3 2) + ","+ m(3 3) +
+                                            ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:19:58: error: expected ')' before numeric constant
+                        + m(3 0) + ","+ m(3 1) + ","+ m(3 2) + ","+ m(3 3) +
+                                                          ^
+/root/catkin_ws/src/Seerose/SourceCode/ROS/knowrob_knowledge_base/src/listener.cpp:19:72: error: expected ')' before numeric constant
+                        + m(3 0) + ","+ m(3 1) + ","+ m(3 2) + ","+ m(3 3) +
+                                                                        ^
+make[2]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/knowrob_knowledge_base_listener.dir/all] Error 2
+make: *** [all] Error 2
